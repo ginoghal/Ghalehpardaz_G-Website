@@ -1,20 +1,20 @@
 $bg: white;
 $navc: #324AB2;
-$altc: #ff1493;
-$ff: arial;
-
-
+$altc: #b2324a;
+$altc2: #b2ac32;
+$ff: Verdana, Geneva, sans-serif;
+$tff: 'Bungee Outline', cursive;
 
 body{
     background-color: $bg;
-    margin: 20px 40px;
 }
 
 #openBox{
     font-size: 40px;
     cursor: pointer;
-    margin-left: 100%;
-    margin-top: -10px;
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 10px;
 }
 
 .sideNav{
@@ -64,59 +64,102 @@ body{
 .instagram img{
     height: 10%;
     width: 10%;
-    padding: 1px;
+    padding: 0px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
 }
 
 .linkedin img{
     height: 10%;
     width: 10%;
-    padding: 1px;
+    padding: 0px;
+    // margin-left: 150px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
 }
 
 .github img{
     height: 10%;
     width: 10%;
-    padding: 1px;
+    padding: 0px;
+    // margin-right: 150px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
 }
+
+//home section
+
+#title{
+}
+#title h1{
+    font-size: 25px;
+    font-family: $ff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#title h2{
+    font-size: 40px;
+    font-family: $tff;
+    color: black;
+    text-align: center;
+}
+
+#title h3{
+    font-size: 14px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.connectButton{
+    cursor: pointer;
+    background-color: $altc2;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    float: right;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
 
 // about section
 
-.about{
+
+#about{
 background-color: $altc;
+display: block;
 width: 100%;
 height: 50%;
-z-index: 20;
-margin: 1px 1px 1px 1px;
-
-
+margin-top: 70px;
 }
 
 
 @media only screen and (min-device-width: 768px ){
 body{
         background-color: $bg;
-        margin: 20px 40px;
+        
     }
 
 #openBox{
         font-size: 40px;
         cursor: pointer;
-        margin-left: 100%;
-        margin-top: -10px;
+        margin-left: 90%;
+        margin-top: 10px;
     }
+
 }
 
 @media only screen and (min-device-width: 900px ){
 body{
     background-color: $bg;
-    margin: 20px 40px;
+ 
 }
 
 #openBox{
     font-size: 40px;
     cursor: pointer;
-    margin-left: 100%;
-    margin-top: -10px;
+    margin-left: 90%;
+    margin-top: 10px;
 }
 
 .sideNav{
