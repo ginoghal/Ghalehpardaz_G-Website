@@ -1,5 +1,5 @@
 $bg: white;
-$navc: #324AB2;
+$mc: #324AB2;
 $altc: #b2324a;
 $altc2: #b2ac32;
 $ff: Verdana, Geneva, sans-serif;
@@ -9,11 +9,264 @@ body{
     background-color: $bg;
 }
 
+#logo{
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+#logo img{
+    height: 15%;
+    width: 15%;
+    margin-top: 40px;
+    margin-left: 42.5%;
+    padding-bottom: 20px;
+}
+
 #openBox{
     font-size: 40px;
     cursor: pointer;
     position: fixed;
     margin-left: 90%;
+    margin-top: -105px;
+}
+
+
+.sideNav{
+    position: fixed;
+    top: 0px;
+    right: -2px;
+    height: 100%;
+    width: 0px;
+    padding-top: 50px;
+    background-color: white;
+    border-left: 2px solid black;
+    transition: 0.5s;
+    z-index: 5;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.sideNav a{
+    padding: 1px;
+    line-height: 2;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: block;
+}
+
+.sideNav a:hover{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.sideNav .closeButton{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.sideNav a.closeButton{
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+.instagram img{
+    height: 10%;
+    width: 10%;
+    padding: 0px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+.linkedin img{
+    height: 10%;
+    width: 10%;
+    padding: 0px;
+    // margin-left: 150px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+.github img{
+    height: 10%;
+    width: 10%;
+    padding: 0px;
+    // margin-right: 150px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+//home section
+
+
+#title h1{
+    font-size: 25px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+
+#title h2{
+    font-size: 40px;
+    font-family: $tff;
+    color: black;
+    text-align: center;
+}
+
+#title h3{
+    font-size: 14px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.connectButton{
+    cursor: pointer;
+    background-color:rgba(72, 73, 75, 0.50);
+    height: 50px;
+    width: 120px;
+    font-size: 10px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+.connectButton a{
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    width: 120px;
+    padding-top: 15px;
+    margin-left: -10px;
+    color: black;
+    font-size: 10px;
+}
+
+
+// about section
+
+
+#about{
+    background-color: $altc;
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin-top: 55px;
+}
+
+#portfolio{
+    background-color: $mc;
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+#contact{
+    background-color: #48494B;
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+#footer{
+    text-align: center;
+}
+
+
+@media only screen and (min-device-width: 768px ){
+body{
+        background-color: $bg;
+        
+    }
+
+#logo img{
+        height: 10%;
+        width: 10%;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#openBox{
+        font-size: 40px;
+        cursor: pointer;
+        margin-left: 92%;
+        margin-top: -14%;
+    }
+
+
+    .sideNav{
+      position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    padding-top: 50px;
+    background-color: $altc2;
+    border-left: 0px solid black;
+    transition: 0.5s;
+    z-index: 5;
+    overflow-x: hidden;
+    text-align: center;
+    }
+    
+    .sideNav a{
+        padding: 1px;
+        line-height: 2;
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        display: block;
+    }
+    
+    .sideNav a:hover{
+        text-decoration: line-through;
+        text-decoration-thickness: 2px;
+    }
+    
+    .sideNav .closeButton{
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    
+    .sideNav a.closeButton{
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: -10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media only screen and (min-device-width: 900px ){
+body{
+    background-color: $bg;
+ 
+}
+
+#logo img{
+    height: 10%;
+    width: 10%;
+    margin-top: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#openBox{
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 95%;
     margin-top: 10px;
 }
 
@@ -24,7 +277,7 @@ body{
     height: 100%;
     width: 0px;
     padding-top: 50px;
-    background-color: $navc;
+    background-color: $altc2;
     transition: 0.5s;
     z-index: 5;
     overflow-x: hidden;
@@ -58,150 +311,7 @@ body{
     text-decoration: none;
     font-size: 40px;
     margin-top: -10px;
-    margin-right: -10px;
-}
-
-.instagram img{
-    height: 10%;
-    width: 10%;
-    padding: 0px;
-    // box-shadow: -0px -0px 0px 1px $navc; 
-}
-
-.linkedin img{
-    height: 10%;
-    width: 10%;
-    padding: 0px;
-    // margin-left: 150px;
-    // box-shadow: -0px -0px 0px 1px $navc; 
-}
-
-.github img{
-    height: 10%;
-    width: 10%;
-    padding: 0px;
-    // margin-right: 150px;
-    // box-shadow: -0px -0px 0px 1px $navc; 
-}
-
-//home section
-
-#title{
-}
-#title h1{
-    font-size: 25px;
-    font-family: $ff;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-#title h2{
-    font-size: 40px;
-    font-family: $tff;
-    color: black;
-    text-align: center;
-}
-
-#title h3{
-    font-size: 14px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 50px;
-    padding-bottom: 10px;
-}
-
-.connectButton{
-    cursor: pointer;
-    background-color: $altc2;
-    height: 50px;
-    width: 120px;
-    text-align: center;
-    float: right;
-    border: 1px solid black;
-    border-radius: 2px;
-}
-
-
-// about section
-
-
-#about{
-background-color: $altc;
-display: block;
-width: 100%;
-height: 50%;
-margin-top: 70px;
-}
-
-
-@media only screen and (min-device-width: 768px ){
-body{
-        background-color: $bg;
-        
-    }
-
-#openBox{
-        font-size: 40px;
-        cursor: pointer;
-        margin-left: 90%;
-        margin-top: 10px;
-    }
-
-}
-
-@media only screen and (min-device-width: 900px ){
-body{
-    background-color: $bg;
- 
-}
-
-#openBox{
-    font-size: 40px;
-    cursor: pointer;
-    margin-left: 90%;
-    margin-top: 10px;
-}
-
-.sideNav{
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    height: 100%;
-    width: 0px;
-    padding-top: 50px;
-    background-color: $navc;
-    transition: 0.5s;
-    z-index: 5;
-    overflow-x: hidden;
-}
-
-.sideNav a{
-    padding: 10px 1px 30px 40px;
-    line-height: 1;
-    text-decoration: none;
-    font-size: 30px;
-    color: black;
-    display: block;
-}
-
-.sideNav a:hover{
-    text-decoration: line-through;
-    text-decoration-thickness: 2px;
-}
-
-.sideNav .closeButton{
-    position: absolute;
-    top: 0px;
-    right: 20px;
-    font-size: 30px;
-    margin-left: 30px;
-}
-
-.sideNav a.closeButton{
-    text-decoration: none;
-    font-size: 40px;
-    margin-top: 1px;
-    margin-right: -10px;
+    margin-right: 20px;
 }
 
 
@@ -228,10 +338,15 @@ body{
     padding: 1px;
 }
 
-/* home page */
+//home section
 
-.title h1{
-    font-size: 30px;
+
+#title h1{
+    font-size: 25px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
 }
 
 .title h3{
