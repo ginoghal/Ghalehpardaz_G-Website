@@ -1,25 +1,40 @@
 $bg: white;
-$mc: #324AB2;
-$altc: #b2324a;
-$altc2: #b2ac32;
+$mc: #990033;     
+$altc: #CC0033;
+$altc2: #333333;
 $ff: Verdana, Geneva, sans-serif;
 $tff: 'Bungee Outline', cursive;
+// $mc: #324AB2;     
+// $altc: #b2324a;
+// $altc2: #b2ac32;
 
-body{
-    background-color: $bg;
-}
+html, body {
+    overflow-x:hidden;
+    background-color: ghostwhite;
+  } 
 
 #logo{
-    margin-top: -25px;
+    margin-top: -10px;
     margin-left: 10px;
 }
 
 #logo img{
-    height: 15%;
-    width: 15%;
-    margin-top: 40px;
-    margin-left: 42.5%;
+    height: 8%;
+    width: 8%;
+    margin-top: 1px;
+    margin-left: 1%;
     padding-bottom: 20px;
+    z-index: 4;
+    position: fixed;
+}
+
+.hContainer{
+background-color:rgba(72, 73, 75, 0.50);
+width: 100%;
+height: 5%;
+margin-top: 10px;
+z-index: 3;
+position: fixed;
 }
 
 #openBox{
@@ -27,8 +42,10 @@ body{
     cursor: pointer;
     position: fixed;
     margin-left: 90%;
-    margin-top: -105px;
+    margin-top: -1px;
+    z-index: 3;
 }
+
 
 
 .sideNav{
@@ -55,6 +72,7 @@ body{
     display: block;
 }
 
+
 .sideNav a:hover{
     text-decoration: line-through;
     text-decoration-thickness: 2px;
@@ -72,8 +90,12 @@ body{
 .sideNav a.closeButton{
     text-decoration: none;
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: -20px;
     margin-right: -10px;
+}
+
+a.closeButton{
+   display: block;
 }
 
 .instagram img{
@@ -106,7 +128,7 @@ body{
     font-size: 25px;
     font-family: $ff;
     text-align: center;
-    margin-top: -20px;
+    margin-top: 75px;
     padding-bottom: 10px;
 }
 
@@ -121,8 +143,17 @@ body{
     font-size: 14px;
     font-family: $ff;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 300px;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.profileImage img{
+    height: 70%;
+    width: 100%;
+    margin-top: -400px;
+    margin-left: -50px;
 }
 
 .connectButton{
@@ -134,6 +165,8 @@ body{
     text-align: center;
     border: 1.5px solid black;
     border-radius: 3px;
+    margin-top: -200px;
+    margin-left: 35%;
 }
 
 .connectButton a{
@@ -150,13 +183,71 @@ body{
 
 // about section
 
+#aboutWaves{
+    background-image:url(/public/images/aboutwave.svg);
+    z-index: 2;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    width: 103%;
+    height: 50%;
+}
 
 #about{
     background-color: $altc;
     display: block;
     width: 100%;
     height: 50%;
-    margin-top: 55px;
+    margin-top: -255px;
+}
+
+
+.aboutMe h1{
+    font-size: 30px;
+    font-family: $ff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.aboutMe h2{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.aboutMe h3{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.aboutMe h4{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.aboutMe h5{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+// portfolio section
+
+
+#portfolioWaves{
+    background-image:url(/public/images/portfoliowave.svg);
+    z-index: 2;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: -55px;
+    width: 103%;
+    height: 50%;
 }
 
 #portfolio{
@@ -164,14 +255,48 @@ body{
     display: block;
     width: 100%;
     height: 50%;
+    margin-top: -275px;
+}
+
+#portfolio h1{
+    font-size: 30px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+// contact section
+
+#contactWaves{
+    background-image:url(/public/images/contactwave.svg);
+    z-index: 2;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    width: 103%;
+    height: 50%;
 }
 
 #contact{
-    background-color: #48494B;
+    // background-color: #48494B;
+    background-color: $altc2;
     display: block;
     width: 100%;
     height: 50%;
+    margin-top: -275px;
 }
+
+#contact h1{
+    font-size: 30px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
 
 #footer{
     text-align: center;
@@ -185,24 +310,35 @@ body{
     }
 
 #logo img{
-        height: 10%;
-        width: 10%;
-        margin-top: 20px;
+        height: 6%;
+        width: 6%;
+        margin-top: 5px;
         display: block;
-        margin-left: auto;
+        margin-left: 10px;
         margin-right: auto;
+        z-index: 4;
+        position: fixed;
     }
 
 #openBox{
         font-size: 40px;
         cursor: pointer;
         margin-left: 92%;
-        margin-top: -14%;
+        margin-top: 5px;
     }
+
+    .hContainer{
+        background-color:rgba(72, 73, 75, 0.50);
+        width: 100%;
+        height: 5%;
+        margin-top: 10px;
+        z-index: 3;
+        position: fixed;
+        }
 
 
     .sideNav{
-      position: fixed;
+    position: fixed;
     top: 0px;
     right: 0px;
     height: 100%;
@@ -245,6 +381,153 @@ body{
         margin-top: -10px;
         margin-right: 10px;
     }
+
+
+a.closeButton{
+    display: block;
+ }
+ 
+ .instagram img{
+     height: 10%;
+     width: 10%;
+     padding: 0px;
+     // box-shadow: -0px -0px 0px 1px $navc; 
+ }
+ 
+ .linkedin img{
+     height: 10%;
+     width: 10%;
+     padding: 0px;
+     // margin-left: 150px;
+     // box-shadow: -0px -0px 0px 1px $navc; 
+ }
+ 
+ .github img{
+     height: 10%;
+     width: 10%;
+     padding: 0px;
+     // margin-right: 150px;
+     // box-shadow: -0px -0px 0px 1px $navc; 
+ }
+ 
+//home section
+
+
+#title h1{
+    font-size: 25px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+
+#title h2{
+    font-size: 40px;
+    font-family: $tff;
+    color: black;
+    text-align: center;
+}
+
+#title h3{
+    font-size: 14px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 300px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.profileImage img{
+    height: 70%;
+    width: 75%;
+    margin-top: -400px;
+    margin-left: -50px;
+}
+
+.connectButton{
+    cursor: pointer;
+    background-color:rgba(72, 73, 75, 0.50);
+    height: 50px;
+    width: 120px;
+    font-size: 10px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    margin-top: -200px;
+    margin-left: 35%;
+}
+
+.connectButton a{
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    width: 120px;
+    padding-top: 15px;
+    margin-left: -10px;
+    color: black;
+    font-size: 10px;
+}
+
+
+// about section
+
+#aboutWaves{
+    background-image:url(/public/images/aboutwave.svg);
+    z-index: 2;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+    width: 103%;
+    height: 50%;
+}
+
+#about{
+    background-color: $altc;
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin-top: -350px;
+}
+
+
+.aboutMe h1{
+    font-size: 30px;
+    font-family: $ff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.aboutMe h2{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.aboutMe h3{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.aboutMe h4{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.aboutMe h5{
+    font-size: 15px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
 
 }
 
@@ -315,41 +598,71 @@ body{
 }
 
 
+a.closeButton{
+    display: block;
+ }
+ 
+ .instagram img{
+     height: 10%;
+     width: 10%;
+     padding: 0px;
+     // box-shadow: -0px -0px 0px 1px $navc; 
+ }
+ 
+ .linkedin img{
+     height: 10%;
+     width: 10%;
+     padding: 0px;
+     // margin-left: 150px;
+     // box-shadow: -0px -0px 0px 1px $navc; 
+ }
+ 
+ .github img{
+     height: 10%;
+     width: 10%;
+     padding: 0px;
+     // margin-right: 150px;
+     // box-shadow: -0px -0px 0px 1px $navc; 
+ }
+ 
+ //home section
+ 
+ 
+ #title h1{
+     font-size: 25px;
+     font-family: $ff;
+     text-align: center;
+     margin-top: -20px;
+     padding-bottom: 10px;
+ }
+ 
+ #title h2{
+     font-size: 40px;
+     font-family: $tff;
+     color: black;
+     text-align: center;
+ }
+ 
+ #title h3{
+     font-size: 14px;
+     font-family: $ff;
+     text-align: center;
+     margin-top: 300px;
+     padding-bottom: 10px;
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .profileImage img{
+     height: 70%;
+     width: 75%;
+     margin-top: -400px;
+     margin-left: -50px;
+ }
+
+
+ 
+
+
 /* social media section */
-
-
-
-.instagram img{
-    height: 10%;
-    width: 10%;
-    padding: 1px;
-}
-
-.linkedin img{
-    height: 10%;
-    width: 10%;
-    padding: 1px;
-}
-
-
-.github img{
-    height: 10%;
-    width: 10%;
-    padding: 1px;
-}
-
-//home section
-
-
-#title h1{
-    font-size: 25px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 20px;
-    padding-bottom: 10px;
-}
-
-.title h3{
-    font-size: 20px;
-}
 }
