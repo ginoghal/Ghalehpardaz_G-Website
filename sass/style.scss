@@ -1,7 +1,7 @@
 $bg: white;
-$mc: #990033;     
-$altc: #CC0033;
-$altc2: #333333;
+$mc: #91b8ff;     
+$altc: #ff91a5;
+$altc2: #fff691;
 $ff: Verdana, Geneva, sans-serif;
 $tff: 'Bungee Outline', cursive;
 // $mc: #324AB2;     
@@ -124,12 +124,43 @@ a.closeButton{
 //home section
 
 
-#title h1{
-    font-size: 25px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 75px;
-    padding-bottom: 10px;
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
 }
 
 #title h2{
@@ -137,13 +168,15 @@ a.closeButton{
     font-family: $tff;
     color: black;
     text-align: center;
+    margin-top: 50px;
 }
 
 #title h3{
-    font-size: 14px;
+    font-size: 25px;
+    color: $mc;
     font-family: $ff;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 400px;
     padding-bottom: 10px;
     position: relative;
     z-index: 1;
@@ -152,7 +185,7 @@ a.closeButton{
 .profileImage img{
     height: 70%;
     width: 100%;
-    margin-top: -400px;
+    margin-top: -425px;
     margin-left: -50px;
 }
 
@@ -230,12 +263,6 @@ a.closeButton{
     margin-top: 15px;
 }
 
-.aboutMe h5{
-    font-size: 15px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 15px;
-}
 
 // portfolio section
 
@@ -271,8 +298,6 @@ a.closeButton{
 
 #contactWaves{
     background-image:url(/public/images/contactwave.svg);
-    z-index: 2;
-    position: relative;
     background-repeat: no-repeat;
     margin-top: -60px;
     width: 103%;
@@ -284,19 +309,52 @@ a.closeButton{
     background-color: $altc2;
     display: block;
     width: 100%;
-    height: 50%;
-    margin-top: -275px;
+    height: 60%;
+    margin-top: -270px;
 }
 
-#contact h1{
+.contactMe h1{
     font-size: 30px;
     font-family: $ff;
     text-align: center;
     margin-top: 20px;
-    padding-top: 20px;
+    margin-left: 20px;
+    padding-top: 1px;
 }
 
+.contactMe form h3{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
 
+.nameinput {
+    width: 300px;
+    margin-left: 10%; }
+    
+.emailinput {
+        width: 300px;
+        margin-left: 10%;
+    }
+
+.messageinput {
+        margin-left: 10%;
+        width: 300px;
+        padding-bottom: 60px;
+        vertical-align: text-top;
+        box-sizing: border-box; }
+
+input[type="submit"] {
+            margin-top: -25%;
+            margin-left: 10%;
+            background: white;
+            cursor: pointer;
+            width: 300px;
+            height: 40px;
+            font-size: 10px;
+            font-family: arial black, arial, sans-serif;
+            border-color: #3c4043;
+}
 
 #footer{
     text-align: center;
@@ -413,13 +471,48 @@ a.closeButton{
 //home section
 
 
-#title h1{
-    font-size: 25px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 100px;
-    padding-bottom: 10px;
+//home section
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
 }
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
 
 #title h2{
     font-size: 40px;
@@ -519,13 +612,6 @@ a.closeButton{
     margin-top: 15px;
 }
 
-.aboutMe h5{
-    font-size: 15px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 15px;
-}
-
 
 
 
@@ -537,132 +623,5 @@ body{
  
 }
 
-#logo img{
-    height: 10%;
-    width: 10%;
-    margin-top: 20px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-#openBox{
-    font-size: 40px;
-    cursor: pointer;
-    margin-left: 95%;
-    margin-top: 10px;
-}
-
-.sideNav{
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    height: 100%;
-    width: 0px;
-    padding-top: 50px;
-    background-color: $altc2;
-    transition: 0.5s;
-    z-index: 5;
-    overflow-x: hidden;
-    text-align: center;
-}
-
-.sideNav a{
-    padding: 1px;
-    line-height: 2;
-    text-decoration: none;
-    font-size: 30px;
-    color: black;
-    display: block;
-}
-
-.sideNav a:hover{
-    text-decoration: line-through;
-    text-decoration-thickness: 2px;
-}
-
-.sideNav .closeButton{
-    position: absolute;
-    top: 0px;
-    right: 20px;
-    font-size: 30px;
-    margin-left: 30px;
-    margin-top: -20px;
-}
-
-.sideNav a.closeButton{
-    text-decoration: none;
-    font-size: 40px;
-    margin-top: -10px;
-    margin-right: 20px;
-}
-
-
-a.closeButton{
-    display: block;
- }
- 
- .instagram img{
-     height: 10%;
-     width: 10%;
-     padding: 0px;
-     // box-shadow: -0px -0px 0px 1px $navc; 
- }
- 
- .linkedin img{
-     height: 10%;
-     width: 10%;
-     padding: 0px;
-     // margin-left: 150px;
-     // box-shadow: -0px -0px 0px 1px $navc; 
- }
- 
- .github img{
-     height: 10%;
-     width: 10%;
-     padding: 0px;
-     // margin-right: 150px;
-     // box-shadow: -0px -0px 0px 1px $navc; 
- }
- 
- //home section
- 
- 
- #title h1{
-     font-size: 25px;
-     font-family: $ff;
-     text-align: center;
-     margin-top: -20px;
-     padding-bottom: 10px;
- }
- 
- #title h2{
-     font-size: 40px;
-     font-family: $tff;
-     color: black;
-     text-align: center;
- }
- 
- #title h3{
-     font-size: 14px;
-     font-family: $ff;
-     text-align: center;
-     margin-top: 300px;
-     padding-bottom: 10px;
-     position: relative;
-     z-index: 1;
- }
- 
- .profileImage img{
-     height: 70%;
-     width: 75%;
-     margin-top: -400px;
-     margin-left: -50px;
- }
-
-
- 
-
-
-/* social media section */
 }
