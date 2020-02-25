@@ -10,7 +10,7 @@ $tff: 'Bungee Outline', cursive;
 
 html, body {
     overflow-x:hidden;
-    background-color: ghostwhite;
+    background-color: #e1ecf0;
   } 
 
 #logo{
@@ -109,7 +109,8 @@ a.closeButton{
     height: 10%;
     width: 10%;
     padding: 0px;
-    // margin-left: 150px;
+    margin-left: 150px;
+    margin-top: -68px;
     // box-shadow: -0px -0px 0px 1px $navc; 
 }
 
@@ -117,7 +118,8 @@ a.closeButton{
     height: 10%;
     width: 10%;
     padding: 0px;
-    // margin-right: 150px;
+    margin-right: 150px;
+    margin-top: -70px;
     // box-shadow: -0px -0px 0px 1px $navc; 
 }
 
@@ -176,17 +178,70 @@ a.closeButton{
     color: $mc;
     font-family: $ff;
     text-align: center;
-    margin-top: 400px;
+    margin-top: 10px;
     padding-bottom: 10px;
     position: relative;
     z-index: 1;
 }
 
 .profileImage img{
-    height: 70%;
+    height: 65%;
     width: 100%;
-    margin-top: -425px;
-    margin-left: -50px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.profileImage {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+
 }
 
 .connectButton{
@@ -200,6 +255,9 @@ a.closeButton{
     border-radius: 3px;
     margin-top: -200px;
     margin-left: 35%;
+    z-index: 2;
+    position: relative;
+
 }
 
 .connectButton a{
@@ -212,7 +270,6 @@ a.closeButton{
     color: black;
     font-size: 10px;
 }
-
 
 // about section
 
@@ -230,7 +287,7 @@ a.closeButton{
     background-color: $altc;
     display: block;
     width: 100%;
-    height: 50%;
+    height: 75%;
     margin-top: -255px;
 }
 
@@ -261,6 +318,14 @@ a.closeButton{
     font-family: $ff;
     text-align: center;
     margin-top: 15px;
+}
+
+.aboutMe img{
+    width: 60%;
+    padding-top: 10px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -363,8 +428,7 @@ input[type="submit"] {
 
 @media only screen and (min-device-width: 768px ){
 body{
-        background-color: $bg;
-        
+    background-color: #e1ecf0;  
     }
 
 #logo img{
@@ -396,19 +460,19 @@ body{
 
 
     .sideNav{
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    height: 100%;
-    width: 0px;
-    padding-top: 50px;
-    background-color: $altc2;
-    border-left: 0px solid black;
-    transition: 0.5s;
-    z-index: 5;
-    overflow-x: hidden;
-    text-align: center;
-    }
+        position: fixed;
+        top: 0px;
+        right: -2px;
+        height: 100%;
+        width: 0px;
+        padding-top: 50px;
+        background-color: white;
+        border-left: 2px solid black;
+        transition: 0.5s;
+        z-index: 5;
+        overflow-x: hidden;
+        text-align: center;
+        }
     
     .sideNav a{
         padding: 1px;
@@ -446,26 +510,27 @@ a.closeButton{
  }
  
  .instagram img{
-     height: 10%;
-     width: 10%;
-     padding: 0px;
-     // box-shadow: -0px -0px 0px 1px $navc; 
- }
- 
- .linkedin img{
-     height: 10%;
-     width: 10%;
-     padding: 0px;
-     // margin-left: 150px;
-     // box-shadow: -0px -0px 0px 1px $navc; 
- }
- 
- .github img{
-     height: 10%;
-     width: 10%;
-     padding: 0px;
-     // margin-right: 150px;
-     // box-shadow: -0px -0px 0px 1px $navc; 
+    height: 10%;
+    width: 10%;
+    padding: 0px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+.linkedin img{
+    height: 10%;
+    width: 10%;
+    padding: 0px;
+    margin-left: 150px;
+    margin-top: -102px;
+    // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+.github img{
+    height: 10%;
+    width: 10%;
+    padding: 0px;
+    margin-right: 150px;
+    margin-top: -105px;
  }
  
 //home section
@@ -515,51 +580,76 @@ a.closeButton{
 
 
 #title h2{
-    font-size: 40px;
+    font-size: 80px;
     font-family: $tff;
+    margin-top: 100px;
+    padding-right: 1%;
     color: black;
-    text-align: center;
+    text-align: right;
 }
 
 #title h3{
-    font-size: 14px;
+    font-size: 20px;
     font-family: $ff;
-    text-align: center;
-    margin-top: 300px;
+    text-align: right;
+    margin-top: 1%;
     padding-bottom: 10px;
+    padding-right: 1%;
     position: relative;
     z-index: 1;
 }
 
 .profileImage img{
-    height: 70%;
-    width: 75%;
-    margin-top: -400px;
+    height: 75%;
+    width: 100%;
+    margin-top: -25px;
     margin-left: -50px;
 }
 
 .connectButton{
     cursor: pointer;
     background-color:rgba(72, 73, 75, 0.50);
-    height: 50px;
-    width: 120px;
-    font-size: 10px;
-    text-align: center;
+    height: 75px;
+    width: 150px;
     border: 1.5px solid black;
     border-radius: 3px;
-    margin-top: -200px;
-    margin-left: 35%;
+    margin-top: -600px;
+    margin-left: 50%;
+
 }
 
 .connectButton a{
     text-decoration: none;
     display: block;
-    height: 30px;
-    width: 120px;
+    height: 75px;
+    width: 150px;
     padding-top: 15px;
-    margin-left: -10px;
+    margin-left: 5px;
     color: black;
-    font-size: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.connectButton :hover{
+    background-color:rgba(255, 145, 165, 0.7);
+    border: 1.5px solid black;
+    height: 75px;
+    width: 150px;
+    border-radius: 3px;
+    margin-top: -600px;
+    margin-left: 50%;
+}
+
+.connectButton a:hover{
+    text-decoration: none;
+    display: block;
+    height: 75px;
+    width: 150px;
+    padding-top: 15px;
+    margin-left: 5px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
 }
 
 
@@ -579,7 +669,7 @@ a.closeButton{
     background-color: $altc;
     display: block;
     width: 100%;
-    height: 50%;
+    height: 80%;
     margin-top: -350px;
 }
 
@@ -592,24 +682,131 @@ a.closeButton{
 }
 
 .aboutMe h2{
-    font-size: 15px;
+    font-size: 20px;
     font-family: $ff;
     text-align: center;
     margin-top: 15px;
+    padding-top: 20px;
 }
 
 .aboutMe h3{
-    font-size: 15px;
+    font-size: 25px;
     font-family: $ff;
     text-align: center;
     margin-top: 15px;
+    padding-top: 20px;
 }
 
 .aboutMe h4{
-    font-size: 15px;
+    font-size: 20px;
     font-family: $ff;
     text-align: center;
     margin-top: 15px;
+    padding-top: 20px;
+}
+
+.aboutMe img{
+    width: 60%;
+    padding-top: 20px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+// portfolio section
+
+
+#portfolioWaves{
+    background-image:url(/public/images/portfoliowave.svg);
+    z-index: 2;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: -115px;
+    width: 103%;
+    height: 50%;
+}
+
+#portfolio{
+    background-color: $mc;
+    display: block;
+    width: 100%;
+    height: 75%;
+    margin-top: -375px;
+}
+
+#portfolio h1{
+    font-size: 30px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+// contact section
+
+#contactWaves{
+    background-image:url(/public/images/contactwave.svg);
+    background-repeat: no-repeat;
+    margin-top: -125px;
+    width: 103%;
+    height: 50%;
+}
+
+#contact{
+    // background-color: #48494B;
+    background-color: $altc2;
+    display: block;
+    width: 100%;
+    height: 45%;
+    margin-top: -365px;
+}
+
+.contactMe h1{
+    font-size: 30px;
+    font-family: $ff;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 1px;
+}
+
+.contactMe form h3{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.nameinput {
+    width: 300px;
+    margin-left: 30%; }
+    
+.emailinput {
+        width: 300px;
+        margin-left: 30%;
+    }
+
+.messageinput {
+        margin-left: 10%;
+        width: 600px;
+        padding-bottom: 60px;
+        vertical-align: text-top;
+        box-sizing: border-box; }
+
+input[type="submit"] {
+            margin-top: -15%;
+            margin-left: 30%;
+            background: white;
+            cursor: pointer;
+            width: 300px;
+            height: 40px;
+            font-size: 10px;
+            font-family: arial black, arial, sans-serif;
+            border-color: #3c4043;
+}
+
+#footer{
+    text-align: center;
 }
 
 
@@ -625,3 +822,4 @@ body{
 
 
 }
+
