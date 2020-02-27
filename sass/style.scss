@@ -14,26 +14,25 @@ html, body {
   } 
 
 #logo{
-    margin-top: -10px;
-    margin-left: 10px;
+     margin-top: 1%;
+     margin-left: 10px;
 }
 
 #logo img{
-    height: 8%;
-    width: 8%;
-    margin-top: 1px;
+    height: 40px;
+    width: 40px;
+    margin-top: -1px;
     margin-left: 1%;
-    padding-bottom: 20px;
-    z-index: 4;
+    z-index: 5;
     position: fixed;
 }
 
 .hContainer{
 background-color:rgba(72, 73, 75, 0.50);
 width: 100%;
-height: 5%;
-margin-top: 10px;
-z-index: 3;
+height: 50px;
+margin-top: -7px;
+z-index: 4;
 position: fixed;
 }
 
@@ -42,16 +41,14 @@ position: fixed;
     cursor: pointer;
     position: fixed;
     margin-left: 90%;
-    margin-top: -1px;
-    z-index: 3;
+    margin-top: 1%;
+    z-index: 5;
 }
-
-
 
 .sideNav{
     position: fixed;
     top: 0px;
-    right: -2px;
+    right: -1%;
     height: 100%;
     width: 0px;
     padding-top: 50px;
@@ -170,7 +167,7 @@ a.closeButton{
     font-family: $tff;
     color: black;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25%;
 }
 
 #title h3{
@@ -185,10 +182,11 @@ a.closeButton{
 }
 
 .profileImage img{
-    height: 65%;
+    height: auto;
     width: 100%;
-    margin-top: 10px;
-    margin-left: -10px;
+    margin-top: 10%;
+    z-index: 1;
+    position: relative;
 }
 
 .profileImage {
@@ -243,21 +241,19 @@ a.closeButton{
   }
 
 }
-
 .connectButton{
     cursor: pointer;
     background-color:rgba(72, 73, 75, 0.50);
-    height: 50px;
+    height: 60px;
     width: 120px;
     font-size: 10px;
     text-align: center;
     border: 1.5px solid black;
     border-radius: 3px;
-    margin-top: -200px;
+    margin-top: -50%;
     margin-left: 35%;
     z-index: 2;
     position: relative;
-
 }
 
 .connectButton a{
@@ -274,13 +270,17 @@ a.closeButton{
 // about section
 
 #aboutWaves{
-    background-image:url(/public/images/aboutwave.svg);
     z-index: 2;
     position: relative;
-    background-repeat: no-repeat;
-    margin-top: -50px;
-    width: 103%;
-    height: 50%;
+    height: 100%;
+    width: 100%;
+    margin-top: -10%;
+}
+
+#aboutWaves img{
+    margin-top: -5%;
+    height: auto;
+    width: 100%;
 }
 
 #about{
@@ -288,15 +288,21 @@ a.closeButton{
     display: block;
     width: 100%;
     height: 75%;
-    margin-top: -255px;
 }
 
-
+.aboutMe{
+    background-color: $altc;
+    margin-top: 5%;
+    height: 100%;
+    z-index: 3;
+    position: relative;
+}
 .aboutMe h1{
     font-size: 30px;
     font-family: $ff;
     text-align: center;
     padding-top: 20px;
+    margin-top: -50px;
 }
 
 .aboutMe h2{
@@ -320,12 +326,16 @@ a.closeButton{
     margin-top: 15px;
 }
 
-.aboutMe img{
-    width: 60%;
-    padding-top: 10px;
+.pug{
+    width: 200px;
+     padding-top: 10px;
+     padding-bottom: 20px;
     height: auto;
     display: block;
+    margin-top: 5%;
     margin: 0 auto;
+    z-index: 3;
+    position: relative;
 }
 
 
@@ -333,24 +343,31 @@ a.closeButton{
 
 
 #portfolioWaves{
-    background-image:url(/public/images/portfoliowave.svg);
-    z-index: 2;
-    position: relative;
-    background-repeat: no-repeat;
-    margin-top: -55px;
-    width: 103%;
-    height: 50%;
+    margin-top: 46%;
+    width: 100%;
+    height: auto;
 }
 
-#portfolio{
+#portfolioWaves img{
+    margin-top: -60%;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    position: relative;
+}
+
+.portfolio{
     background-color: $mc;
     display: block;
     width: 100%;
     height: 50%;
-    margin-top: -275px;
+    margin-top: -40%;
+    padding-top: 10%;
+    z-index: 2;
+    position: relative;
 }
 
-#portfolio h1{
+.portfolio h1{
     font-size: 30px;
     font-family: $ff;
     text-align: center;
@@ -362,20 +379,25 @@ a.closeButton{
 // contact section
 
 #contactWaves{
-    background-image:url(/public/images/contactwave.svg);
-    background-repeat: no-repeat;
     margin-top: -60px;
-    width: 103%;
-    height: 50%;
+    width: 100%;
+    z-index: 4;
+    position: relative;
 }
 
-#contact{
-    // background-color: #48494B;
+
+#contactWaves img{
+    margin-top: -1%;
+    width: 100%;
+    height: auto;
+}
+
+.contactMe{
     background-color: $altc2;
     display: block;
     width: 100%;
-    height: 60%;
-    margin-top: -270px;
+    height: auto;
+    margin-top: -20px;
 }
 
 .contactMe h1{
@@ -410,7 +432,7 @@ a.closeButton{
         box-sizing: border-box; }
 
 input[type="submit"] {
-            margin-top: -25%;
+            margin-top: 5%;
             margin-left: 10%;
             background: white;
             cursor: pointer;
@@ -422,6 +444,10 @@ input[type="submit"] {
 }
 
 #footer{
+    margin-top: 5px;
+}
+
+#footer h1{
     text-align: center;
 }
 
@@ -429,6 +455,7 @@ input[type="submit"] {
 @media only screen and (min-device-width: 768px ){
 body{
     background-color: #e1ecf0;  
+
     }
 
 #logo img{
