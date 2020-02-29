@@ -1,10 +1,10 @@
-function openNav(){
-    document.getElementById("mainNav").style.width="300px";
-    document.getElementById("openBox").style.width="0px";
-}
+var menu = document.getElementById('menu');
+    var closeIcon = document.getElementById("closeIcon");
 
-function closeNav(){
-    document.getElementById("mainNav").style.width="0px";
-    document.getElementById("openBox").style.width="0px";
-}
+    menu.addEventListener('click', handleMenuClick);
 
+    function handleMenuClick(event) {
+      if (event.target instanceof HTMLAnchorElement) {
+        closeIcon.checked = false;
+      }
+    }
