@@ -12,24 +12,33 @@
     <div id="logo"><a href="#"><img src="/public/images/Glogo.svg" alt="logo"></a></div>
 
     <div class="hContainer">
-    <div id="openBox" onclick="openNav()">&#9776; </div>
-    </div>
+    <nav role="navigation">
+        <div id="menuToggle">
 
-    <div id="mainNav" class="sideNav">
-    <a href="#">Home</a>
-    <a href="#about">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-    <a href="#" class="closeButton" onclick="closeNav()">&times;</a>
+          <input id="closeIcon" type="checkbox" />
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <li>
+                <a href="#">Home</a>
+              </li>
+      <li>
+                <a href="#aboutMe">About</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
 
-    <div class="socialMedia">
-        <div class="instagram"><a href="https://www.instagram.com/ginoghal/"><img src="/public/images/instagram_logo.svg" alt="instagram"></a></div>
-        <div class="linkedIn"><a href="https://www.linkedin.com/in/gino-ghalehpardaz-7b4a05122/"><img src="/public/images/linkedin_logo.svg" alt="linkedin"></a></div>
-        <div class="github"><a href="https://github.com/ginoghal"><img src="/public/images/github_logo.svg" alt="github"></a></div>
+          </ul>
         </div>
-
-      </div>
-
+      </nav>
+    </div>
       <div id="title">
         <div class="animated animated FadeInUp fadeInUp">
             <h2>Gino Ghalehpardaz</h2>
@@ -37,13 +46,10 @@
           <h3>I am a Front-end Developer and Motion Designer</h3>
           <div class="profileImage"><img src="/public/images/ginogprofilepic.png" alt="ginoProfilePic"></div>
           <button class="connectButton"><a href="#contact"> Connect With Me!</a></button>
-
       </div>
 
-<div id="aboutWaves">
-    <img src="/public/images/aboutwave.png" alt="aboutwave">
 
-    <div class="aboutMe">
+    <div id="aboutMe">
         <h1>WHO I AM</h1>
         <h2>Born in London, On. I am currently enrolled in the Interactive Media Design program at Fanshawe College.</h2>
         <h3>Prior to going to Fanshawe, I was a marketing coordinator.</h3>
@@ -51,23 +57,20 @@
         
         <div class="pug"><img src="/public/images/Pugsley.png" alt="pug"></div>
     </div>
-    </div>
 
-<div id="portfolioWaves">
-<img src="/public/images/portfoliowave.png" alt="portfoliowave">
 
-    <div class="portfolio">
+<!-- <div id="portfolioWaves"> -->
+
+
+    <div id="portfolio">
         <h1>My Portfolio of Work</h1>
         <h3></h3>
 </div>
-</div>
 
-<div id="contactWaves">
-<img src="/public/images/contactwave.png" alt="contactwave">
 
-    <div class="contactMe">
+    <div id="contact">
         <h1>Contact Me</h1>
-    <form>
+    <form id="contactForm">
  <h3> Name:</h3><br>
   <input class="nameinput" name="name">
   <br>
@@ -80,7 +83,7 @@
 
    <input type="submit" value="Submit">
 </div>
-</div>
+
 </form>
  
 
