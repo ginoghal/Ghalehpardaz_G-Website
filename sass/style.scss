@@ -1,7 +1,7 @@
-$bg: white;
-$mc: #cc0033;     
-$altc: #333333;
-$altc2: #660033;
+$bg: #2F2FA2;
+$mc: #F64C72;     
+$altc: #553D67;
+$altc2: #99738E;
 $ff: Verdana, Geneva, sans-serif;
 $tff: 'Bungee Outline', cursive;
 // $mc: #324AB2;     
@@ -10,26 +10,26 @@ $tff: 'Bungee Outline', cursive;
 
 html, body {
     overflow-x:hidden;
-    background-color: whitesmoke;
+    background-color: $bg;
 
   } 
 
 #logo{
-     margin-top: 1%;
-     margin-left: 85%;
+     margin-top: -1%;
+     margin-left: 80%;
 }
 
 #logo img{
-    height: 40px;
-    width: 40px;
-    margin-top: -1px;
+    height: 80px;
+    width: 45px;
+    margin-top: -7px;
     margin-left: 1%;
     z-index: 3;
     position: fixed;
 }
 
 .hContainer{
-background-color:rgba(72, 73, 75, 0.50);
+background-color:rgba(72, 73, 75, 0.8);
 width: 100%;
 height: 50px;
 margin-top: -7px;
@@ -46,11 +46,10 @@ a:hover{
   color: black;
 }
 
-#menuToggle
-{
+#menuToggle{
   display: block;
   position: relative;
-  margin-top: 3%;
+  margin-top: 5%;
   left: 2%;
   z-index: 5;
   -webkit-user-select: none;
@@ -149,25 +148,24 @@ transform-origin: 0% 0%;
     height: 10%;
     width: 10%;
     padding: 0px;
-    // box-shadow: -0px -0px 0px 1px $navc; 
+    margin-left: 20%;
+    margin-top: 1%;
 }
+
 
 .linkedin img{
     height: 10%;
     width: 10%;
     padding: 0px;
-    margin-left: 150px;
-    margin-top: -68px;
-    // box-shadow: -0px -0px 0px 1px $navc; 
+    margin-left: 45%;
 }
 
 .github img{
     height: 10%;
     width: 10%;
     padding: 0px;
-    margin-right: 150px;
-    margin-top: -70px;
-    // box-shadow: -0px -0px 0px 1px $navc; 
+    margin-left: 70%;
+    margin-top: 1%;
 }
 
 //home section
@@ -213,17 +211,17 @@ transform-origin: 0% 0%;
 }
 
 #title h2{
-    font-size: 40px;
+    font-size: 42px;
     font-family: $tff;
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 15%;
 }
 
 #title h3{
-    font-size: 25px;
+    font-size: 35px;
     color: $mc;
-    font-family: $ff;
+    font-family: $tff;
     text-align: center;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -231,10 +229,19 @@ transform-origin: 0% 0%;
     z-index: 1;
 }
 
+.punisher img{
+  width: 0%;
+  margin-top: -20%;
+  margin-left: 70%;
+  z-index: 2;
+  position: relative;
+}
+
 .profileImage img{
     height: auto;
     width: 100%;
-    margin-top: 5%;
+    margin-top: -15%;
+    margin-left: -15%;
     z-index: 0;
     position: relative;
 }
@@ -293,15 +300,15 @@ transform-origin: 0% 0%;
 }
 .connectButton{
     cursor: pointer;
-    background-color:rgba(72, 73, 75, 0.50);
+    background-color:rgba(246, 76, 114, 0.85);
     height: 60px;
-    width: 120px;
+    width: 150px;
     font-size: 10px;
     text-align: center;
     border: 1.5px solid black;
     border-radius: 3px;
-    margin-top: -50%;
-    margin-left: 35%;
+    margin-top: -120%;
+    margin-left: 55%;
     z-index: 2;
     position: relative;
 }
@@ -312,9 +319,10 @@ transform-origin: 0% 0%;
     height: 30px;
     width: 120px;
     padding-top: 15px;
-    margin-left: -10px;
+    margin-left: 5px;
     color: black;
-    font-size: 10px;
+    font-size: 11px;
+    cursor: pointer;
 }
 
 // about section
@@ -342,7 +350,7 @@ transform-origin: 0% 0%;
 
 #aboutMe{
     background-color: $altc;
-    margin-top: 2%;
+    margin-top: -10%;
     height: auto;
     padding-bottom: 40px;
     position: relative;
@@ -353,32 +361,41 @@ transform-origin: 0% 0%;
     font-family: $ff;
     text-align: center;
     padding-top: 20px;
+    padding-left: 5px;
     margin-top: -50px;
+    color: black;
 
 }
 
 #aboutMe h2{
-    font-size: 15px;
+    font-size: 20px;
     font-family: $ff;
     text-align: center;
     margin-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: white;
 
 }
 
 #aboutMe h3{
-    font-size: 15px;
+    font-size: 20px;
     font-family: $ff;
     text-align: center;
     margin-top: 15px;
-
+    color: white;
+    padding-bottom: 10px;
 }
 
 #aboutMe h4{
-    font-size: 15px;
+    font-size: 20px;
     font-family: $ff;
     text-align: center;
     margin-top: 15px;
-
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .pug img{
@@ -389,7 +406,7 @@ transform-origin: 0% 0%;
     display: block;
     margin-top: 5%;
     margin: 0 auto;
-    z-index: 3;
+    z-index: 2;
     position: relative;
 
 }
@@ -456,6 +473,7 @@ transform-origin: 0% 0%;
     height: auto;
     margin-top: -60px;
     position: relative;
+    padding-bottom: 5px;
  
 }
 
@@ -466,6 +484,8 @@ transform-origin: 0% 0%;
     margin-top: 20px;
     margin-left: 20px;
     padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 30px;
 }
 
 #contact form h3{
@@ -479,6 +499,10 @@ transform-origin: 0% 0%;
     width: 300px;
     display: block;
     margin: auto;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -512,268 +536,319 @@ input[type="submit"] {
         border-color: #3c4043;
 }
 
+.footer h1{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
 
 
 @media only screen and (min-device-width: 768px ){
-body{
-    background-color: #e1ecf0;  
-    }
+  #logo{
+    margin-top: 1%;
+    margin-left: 85%;
+}
 
-    #logo{
-        margin-top: 1%;
-        margin-left: 10px;
-    }
-    
-    #logo img{
-       height: 45px;
-       width: 45px;
-       margin-top: -5px;
-       margin-left: 1%;
-       z-index: 5;
-       position: fixed;
-    }
-    
-    .hContainer{
-    background-color:rgba(72, 73, 75, 0.50);
-    width: 100%;
-    height: 50px;
-    margin-top: -10px;
-    z-index: 4;
-    position: fixed;
-    }
+#logo img{
+   height: 57px;
+   width: 50px;
+   margin-top: -10px;
+   margin-left: 1%;
+   z-index: 3;
+   position: fixed;
+}
+
+.hContainer{
+background-color:rgba(72, 73, 75, 0.8);
+width: 100%;
+height: 50px;
+margin-top: -7px;
+z-index: 3;
+position: fixed;
+}
+
+a{text-decoration: none;
+ color: #232323;
+ transition: color 0.5s ease;
+}
+
+a:hover{
+ color: black;
+}
+
+#menuToggle
+{
+ display: block;
+ position: relative;
+ margin-top: 2.5%;
+ left: 2%;
+ z-index: 5;
+ -webkit-user-select: none;
+ user-select: none;
+}
+
+#menuToggle input
+{ display: block;
+ width: 40px;
+ height: 32px;
+ position: absolute;
+ top: -7px;
+ left: -5px;
+ cursor: pointer;
+ opacity: 0; 
+ z-index: 4; 
+ -webkit-touch-callout: none;
+}
+
+#menuToggle span{
+ display: block;
+ width: 33px;
+ height: 4px;
+ margin-bottom: 5px;
+ position: relative;
+ background: black;
+ border-radius: 3px;
+ z-index: 1; 
+ transform-origin: 4px 0px;
+ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+ opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+ transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+ transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+ opacity: 1;
+ transform: rotate(45deg) translate(-2px, -1px);
+ background: black;
+ z-index: 5;
+ position: relative;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+ opacity: 0;
+ transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu{
+ position: relative;
+ z-index: 3;
+ width: 100%;
+ margin: -100px 0 0 -50px;
+ padding: 50px;
+ padding-top: 125px;
+ background: #ededed;
+ list-style-type: none;
+ -webkit-font-smoothing: antialiased;
+transform-origin: 0% 0%;
+ transform: translate(-100%, 0);
+ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
+}
+
+#menu li{
+ padding: 10px 0;
+}
+
+#menu a {
+ display: block;
+ text-align: center;
+ font-size: 25px;
+ font-family: $ff;
+}
+
+#menuToggle input:checked ~ ul
+{
+ transform: none;
+}
 
 
-    #openBox{
-        font-size: 40px;
-        cursor: pointer;
-        position: fixed;
-        margin-left: 90%;
-        margin-top: 1%;
-        z-index: 5;
-    }
-    
-    .sideNav{
-        position: fixed;
-        top: 0px;
-        right: -1%;
-        height: 100%;
-        width: 0px;
-        padding-top: 50px;
-        background-color: white;
-        border-left: 2px solid black;
-        transition: 0.5s;
-        z-index: 5;
-        overflow-x: hidden;
-        text-align: center;
-    }
-    
-    .sideNav a{
-        padding: 1px;
-        line-height: 2;
-        text-decoration: none;
-        font-size: 30px;
-        color: black;
-        display: block;
-    }
-    
-    
-    .sideNav a:hover{
-        text-decoration: line-through;
-        text-decoration-thickness: 2px;
-    }
-    
-    .sideNav .closeButton{
-        position: absolute;
-        top: 0px;
-        right: 20px;
-        font-size: 30px;
-        margin-left: 30px;
-        margin-top: -20px;
-    }
-    
-    .sideNav a.closeButton{
-        text-decoration: none;
-        font-size: 40px;
-        margin-top: -20px;
-        margin-right: -10px;
-    }
-    
-    a.closeButton{
-       display: block;
-    }
-    
-    .instagram img{
-        height: 10%;
-        width: 10%;
-        padding: 0px;
-        // box-shadow: -0px -0px 0px 1px $navc; 
-    }
-    
-    .linkedin img{
-        height: 10%;
-        width: 10%;
-        padding: 0px;
-        margin-left: 150px;
-        margin-top: -68px;
-        // box-shadow: -0px -0px 0px 1px $navc; 
-    }
-    
-    .github img{
-        height: 10%;
-        width: 10%;
-        padding: 0px;
-        margin-right: 150px;
-        margin-top: -70px;
-        // box-shadow: -0px -0px 0px 1px $navc; 
-    }
+.instagram img{
+   height: 10%;
+   width: 10%;
+   padding: 0px;
+   // box-shadow: -0px -0px 0px 1px $navc; 
+}
 
+.linkedin img{
+   height: 10%;
+   width: 10%;
+   padding: 0px;
+   margin-left: 150px;
+   margin-top: -68px;
+   // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+.github img{
+   height: 10%;
+   width: 10%;
+   padding: 0px;
+   margin-right: 150px;
+   margin-top: -70px;
+   // box-shadow: -0px -0px 0px 1px $navc; 
+}
 
 //home section
 
 
 @keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
+   from {
+       transform: translate3d(0,40px,0)
+   }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
+   to {
+       transform: translate3d(0,0,0);
+       opacity: 1
+   }
 }
 
 @-webkit-keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
+   from {
+       transform: translate3d(0,40px,0)
+   }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
+   to {
+       transform: translate3d(0,0,0);
+       opacity: 1
+   }
 }
 
 .animated {
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: both
+   animation-duration: 2s;
+   animation-fill-mode: both;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-fill-mode: both
 }
 
 .animatedFadeInUp {
-    opacity: 0
+   opacity: 0
 }
 
 .fadeInUp {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
+   opacity: 0;
+   animation-name: fadeInUp;
+   -webkit-animation-name: fadeInUp;
 }
 
 #title h2{
-    font-size: 60px;
-    font-family: $tff;
-    color: black;
-    text-align: center;
-    margin-top: 10%;
+   font-size: 75px;
+   font-family: $tff;
+   color: white;
+   text-align: center;
+   margin-top: 15%;
 }
 
 #title h3{
-    font-size: 28px;
-    color: $mc;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    position: relative;
-    z-index: 1;
+   font-size: 40px;
+   color: $mc;
+   font-family: $tff;
+   text-align: center;
+   margin-top: 10px;
+   padding-bottom: 10px;
+   position: relative;
+   z-index: 1;
 }
 
 .profileImage img{
-    height: auto;
-    width: 100%;
-    margin-top: 1%;
-    z-index: 1;
-    position: relative;
+   height: auto;
+   width: 100%;
+   margin-top: -15%;
+   margin-left: -15%;
+   z-index: 0;
+   position: relative;
 }
 
 .profileImage {
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-  }
-  @keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-  }
+   animation: fadeIn ease 3s;
+   -webkit-animation: fadeIn ease 3s;
+   -moz-animation: fadeIn ease 3s;
+   -o-animation: fadeIn ease 3s;
+   -ms-animation: fadeIn ease 3s;
+ }
+ @keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-moz-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-webkit-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-o-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-ms-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+ }
 
 }
 .connectButton{
-    cursor: pointer;
-    background-color:rgba(72, 73, 75, 0.50);
-    height: 60px;
-    width: 200px;
-    font-size: 10px;
-    text-align: center;
-    border: 1.5px solid black;
-    border-radius: 3px;
-    margin-top: -50%;
-    margin-left: 35%;
-    z-index: 2;
-    position: relative;
+   cursor: pointer;
+   background-color:rgba(246, 76, 114, 0.85);
+   height: 60px;
+   width: 200px;
+   font-size: 10px;
+   text-align: center;
+   border: 1.5px solid black;
+   border-radius: 3px;
+   margin-top: -110%;
+   margin-left: 60%;
+   z-index: 2;
+   position: relative;
 }
 
 .connectButton a{
-    text-decoration: none;
-    display: block;
-    height: 30px;
-    padding-top: 15px;
-    margin-left: 25px;
-    color: black;
-    font-size: 14px;
+   text-decoration: none;
+   display: block;
+   height: 30px;
+   width: 120px;
+   padding-top: 15px;
+   margin-left: 30px;
+   color: black;
+   font-size: 11px;
 }
-
 
 // about section
 
@@ -792,58 +867,74 @@ body{
 // }
 
 #about{
-    background-color: $altc;
-    display: block;
-    width: 100%;
-    height: 75%;
+   background-color: $altc;
+   display: block;
+   width: 100%;
+   height: 75%;
 }
 
 #aboutMe{
-    background-color: $altc;
-    margin-top: 5%;
-    height: auto;
-    z-index: 3;
-    position: relative;
+   background-color: $altc;
+   margin-top: 2%;
+   height: auto;
+   padding-bottom: 40px;
+   position: relative;
+
 }
 #aboutMe h1{
-    font-size: 30px;
-    font-family: $ff;
-    text-align: center;
-    padding-top: 20px;
-    margin-top: -50px;
+   font-size: 30px;
+   font-family: $ff;
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 5px;
+   margin-top: -50px;
+   color: black;
+
 }
 
 #aboutMe h2{
-    font-size: 15px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 15px;
+   font-size: 25px;
+   font-family: $ff;
+   text-align: left;
+   margin-top: 15px;
+   padding-left: 2%;
+   padding-bottom: 5%;
+   color: white;
+
 }
 
 #aboutMe h3{
-    font-size: 15px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 15px;
+   font-size: 25px;
+   font-family: $ff;
+   text-align: center;
+   margin-top: 15px;
+   padding-bottom: 5%;
+   padding-left: 2%;
+   padding-right: 2%;
+   color: white;
 }
 
 #aboutMe h4{
-    font-size: 15px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 15px;
+   font-size: 25px;
+   font-family: $ff;
+   text-align: left;
+   margin-top: 15px;
+   padding-left: 2%;
+   padding-bottom: 5%;
+   color: white;
 }
 
 .pug img{
-    width: 200px;
-     padding-top: 10px;
-     padding-bottom: 20px;
-    height: auto;
-    display: block;
-    margin-top: 5%;
-    margin: 0 auto;
-    z-index: 3;
-    position: relative;
+   width: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   height: auto;
+   display: block;
+   margin-top: 5%;
+   margin: 0 auto;
+   z-index: 2;
+   position: relative;
+
 }
 
 
@@ -865,22 +956,23 @@ body{
 // }
 
 #portfolio{
-    background-color: $mc;
-    display: block;
-    width: 100%;
-    height: 50%;
-    margin-top: auto;
-    padding-top: 10%;
-    z-index: 3;
-    position: relative;
+   background-color: $mc;
+   display: block;
+   width: 100%;
+   height: 50%;
+   margin-top: -50px;
+   padding-top: 10%;
+   position: relative;
+
 }
 
 #portfolio h1{
-    font-size: 30px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: -10%;
-    padding-top: 20px;
+   font-size: 30px;
+   font-family: $ff;
+   text-align: center;
+   margin-top: -10%;
+   padding-top: 20px;
+
 }
 
 
@@ -900,102 +992,648 @@ body{
 //     height: auto;
 // }
 
-#contactMe{
-    background-color: $altc2;
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-top: -20px;
+#contact{
+   background-color: $altc2;
+   display: block;
+   width: 100%;
+   height: auto;
+   margin-top: -60px;
+   padding-bottom: 5px;
+   position: relative;
+
 }
 
-#contactMe h1{
-    font-size: 30px;
-    font-family: $ff;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-top: 20px;
+#contact h1{
+   font-size: 30px;
+   font-family: $ff;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 20px;
+   padding-top: 20px;
+   padding-right: 5px;
+   padding-bottom: 30px;
 }
 
-#contactMe form h3{
-    text-align: center;
-    padding-top: 20px;
-    color: black;
+#contact form h3{
+   text-align: center;
+   padding-top: 20px;
+   color: black;
+  
 }
 
 #contactForm{
-    width: 300px;
-    display: block;
-    margin: auto;
+   width: 400px;
+   display: block;
+   margin: auto;
+   background-color: whitesmoke;
+   border: 2px solid black;
+   padding: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .nameinput {
-    margin: auto;
-    display: block;
-    width: 300px;
- }
-    
+   margin: auto;
+   display: block;
+   width: 300px;
+}
+   
 .emailinput {
-        width: 300px;
+       width: 300px;
+       margin: auto;
+       display: block;
 
-    }
+   }
 
 .messageinput {
-    width: 300px;
-    padding-bottom: 60px;
-    vertical-align: text-top;
-    box-sizing: border-box; }
+   width: 300px;
+   padding-bottom: 60px;
+   vertical-align: text-top;
+   box-sizing: border-box; 
+   margin: auto;
+   display: block;
+}
+
+.submitinput{
+  margin-top: 5px;
+}
+
 
 input[type="submit"] {
-        margin-top: 5%;
-        margin-left: auto;
-        background: white;
-        cursor: pointer;
-        width: 300px;
-        height: 40px;
-        font-size: 10px;
-        font-family: arial black, arial, sans-serif;
-        border-color: #3c4043;
+       margin-top: 5%;
+       margin-left: auto;
+       background: white;
+       cursor: pointer;
+       width: 300px;
+       height: 40px;
+       font-size: 10px;
+       font-family: arial black, arial, sans-serif;
+       border-color: #3c4043;
+       margin: auto;
+       display: block;
 }
 
-#footer{
-    margin-top: 5px;
+.footer h1{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
-
-#footer h1{
-    text-align: center;
-}
-
-
+ 
 
 }
 
 @media only screen and (min-device-width: 900px ){
-body{
-    background-color: $bg;
-}
 
-#logo{
-    margin-top: 1%;
-    margin-left: 10px;
+  #logo{
+    margin-top: 0.5%;
+    margin-left: 85%;
 }
 
 #logo img{
-   height: 40px;
-   width: 40px;
-   margin-top: -1px;
+   height: 50px;
+   width: 50px;
+   margin-top: -5px;
    margin-left: 1%;
-   z-index: 5;
+   z-index: 3;
    position: fixed;
 }
 
 .hContainer{
-background-color:rgba(72, 73, 75, 0.50);
+background-color:rgba(72, 73, 75, 0.8);
 width: 100%;
 height: 50px;
-margin-top: -10px;
-z-index: 4;
+margin-top: -7px;
+z-index: 3;
 position: fixed;
+}
+
+a{text-decoration: none;
+ color: #232323;
+ transition: color 0.5s ease;
+}
+
+a:hover{
+ color: black;
+}
+
+#menuToggle{
+ display: block;
+ position: relative;
+ margin-top: 1%;
+ left: 2%;
+ z-index: 5;
+ -webkit-user-select: none;
+ user-select: none;
+}
+
+#menuToggle input{ 
+display: block;
+ width: 40px;
+ height: 32px;
+ position: absolute;
+ top: -7px;
+ left: -5px;
+ cursor: pointer;
+ opacity: 0; 
+ z-index: 4; 
+ -webkit-touch-callout: none;
+}
+
+#menuToggle span{
+ display: block;
+ width: 33px;
+ height: 4px;
+ margin-bottom: 5px;
+ position: relative;
+ background: black;
+ border-radius: 3px;
+ z-index: 1; 
+ transform-origin: 4px 0px;
+ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+ opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+ transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+ transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span{
+ opacity: 1;
+ transform: rotate(45deg) translate(-2px, -1px);
+ background: black;
+ z-index: 5;
+ position: relative;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+ opacity: 0;
+ transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu{
+ position: relative;
+ z-index: 3;
+ width: 100%;
+ margin: -100px 0 0 -50px;
+ padding: 50px;
+ padding-top: 125px;
+ background: #ededed;
+ list-style-type: none;
+ -webkit-font-smoothing: antialiased;
+transform-origin: 0% 0%;
+ transform: translate(-100%, 0);
+ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
+}
+
+#menu li{
+ padding: 10px 0;
+}
+
+#menu a {
+ display: block;
+ text-align: center;
+ font-size: 35px;
+ font-family: $ff;
+ color: $mc;
+}
+
+#menu a:hover{
+  text-decoration: line-through;
+  color: $bg;
+}
+
+#menuToggle input:checked ~ ul
+{
+ transform: none;
+}
+
+.socialMedia{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.instagram img{
+   height: 5%;
+   width: 5%;
+   margin-top: -5px;
+
+   // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+.linkedin img{
+   height: 5%;
+   width: 5%;
+   margin-top: 1px;
+   // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+.github img{
+   height: 5%;
+   width: 5%;
+   padding: 0px;
+
+   // box-shadow: -0px -0px 0px 1px $navc; 
+}
+
+//home section
+
+
+@keyframes fadeInUp {
+   from {
+       transform: translate3d(0,40px,0)
+   }
+
+   to {
+       transform: translate3d(0,0,0);
+       opacity: 1
+   }
+}
+
+@-webkit-keyframes fadeInUp {
+   from {
+       transform: translate3d(0,40px,0)
+   }
+
+   to {
+       transform: translate3d(0,0,0);
+       opacity: 1
+   }
+}
+
+.animated {
+   animation-duration: 2s;
+   animation-fill-mode: both;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+   opacity: 0
+}
+
+.fadeInUp {
+   opacity: 0;
+   animation-name: fadeInUp;
+   -webkit-animation-name: fadeInUp;
+}
+
+#title h2{
+   font-size: 115px;
+   font-family: $tff;
+   color: white;
+   text-align: center;
+   margin-top: 5%;
+}
+
+#title h3{
+   font-size: 35px;
+   color: $mc;
+   font-family: $tff;
+   text-align: right;
+   margin-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 8%;
+   position: relative;
+   z-index: 1;
+}
+
+.punisher img{
+  width: 30%;
+  margin-top: -40%;
+  margin-left: 65%;
+  padding-bottom: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.profileImage img{
+   height: auto;
+   width: 50%;
+   margin-top: -10%;
+   margin-left: -1%;
+   z-index: 0;
+   position: relative;
+}
+
+.profileImage {
+   animation: fadeIn ease 3s;
+   -webkit-animation: fadeIn ease 3s;
+   -moz-animation: fadeIn ease 3s;
+   -o-animation: fadeIn ease 3s;
+   -ms-animation: fadeIn ease 3s;
+ }
+ @keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-moz-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-webkit-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-o-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-ms-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+ }
+
+}
+.connectButton{
+   cursor: pointer;
+   background-color:rgba(246, 76, 114, 0.85);
+   height: 100px;
+   width: 200px;
+   font-size: 10px;
+   text-align: center;
+   border: 1.5px solid black;
+   border-radius: 3px;
+   margin-top: -50%;
+   margin-left: 60%;
+   z-index: 2;
+   position: relative;
+}
+
+.connectButton:hover{
+  background-color: $mc;
+}
+
+.connectButton a{
+   text-decoration: none;
+   display: block;
+   width: 120px;
+   padding-top: 15px;
+   margin-left: 30px;
+   color: black;
+   font-size: 14px;
+}
+
+// about section
+
+// #aboutWaves{
+//     z-index: 2;
+//     position: relative;
+//     height: 100%;
+//     width: 100%;
+//     margin-top: -10%;
+// }
+
+// #aboutWaves img{
+//     margin-top: -5%;
+//     height: auto;
+//     width: 100%;
+// }
+
+#about{
+   background-color: $altc;
+   display: block;
+   width: 100%;
+   height: 75%;
+}
+
+#aboutMe{
+   background-color: $altc;
+   margin-top: -28%;
+   height: auto;
+   padding-bottom: 40px;
+   position: relative;
+
+}
+#aboutMe h1{
+   font-size: 50px;
+   font-family: $ff;
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 5px;
+   margin-top: -50px;
+   color: black;
+
+}
+
+#aboutMe h2{
+   font-size: 40px;
+   font-family: $ff;
+   text-align: left;
+   margin-top: 13%;
+   padding-left: 2%;
+   padding-bottom: 5%;
+   color: white;
+
+}
+
+#aboutMe h3{
+   font-size: 40px;
+   font-family: $ff;
+   text-align: right;
+   margin-top: 15px;
+   padding-bottom: 5%;
+   padding-right: 5%;
+   color: white;
+}
+
+#aboutMe h4{
+   font-size: 40px;
+   font-family: $ff;
+   text-align: left;
+   margin-top: 15px;
+   padding-left: 2%;
+   padding-bottom: 5%;
+   color: white;
+}
+
+.pug img{
+   width: 500px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   height: auto;
+   display: block;
+   margin-top: 5%;
+   margin: 0 auto;
+   z-index: 2;
+   position: relative;
+
+}
+
+
+// portfolio section
+
+
+// #portfolioWaves{
+//     margin-top: 46%;
+//     width: 100%;
+//     height: auto;
+// }
+
+// #portfolioWaves img{
+//     margin-top: -60%;
+//     width: 100%;
+//     height: auto;
+//     z-index: 3;
+//     position: relative;
+// }
+
+#portfolio{
+   background-color: $mc;
+   display: block;
+   width: 100%;
+   height: 50%;
+   margin-top: -50px;
+   padding-top: 10%;
+   position: relative;
+
+}
+
+#portfolio h1{
+   font-size: 30px;
+   font-family: $ff;
+   text-align: center;
+   margin-top: -10%;
+   padding-top: 20px;
+
+}
+
+
+// contact section
+
+// #contactWaves{
+//     margin-top: -60px;
+//     width: 100%;
+//     z-index: 4;
+//     position: relative;
+// }
+
+
+// #contactWaves img{
+//     margin-top: -1%;
+//     width: 100%;
+//     height: auto;
+// }
+
+#contact{
+   background-color: $altc2;
+   display: block;
+   width: 100%;
+   height: auto;
+   margin-top: -60px;
+   position: relative;
+   padding-bottom: 30px;
+
+}
+
+#contact h1{
+   font-size: 30px;
+   font-family: $ff;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 20px;
+   padding-top: 20px;
+   padding-right: 5px;
+   padding-bottom: 30px;
+}
+
+#contact form h3{
+   text-align: center;
+   padding-top: 20px;
+   color: black;
+  
+}
+
+#contactForm{
+   width: 600px;
+   display: block;
+   margin: auto;
+   background-color: whitesmoke;
+   border: 2px solid black;
+   padding: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.nameinput {
+   margin: auto;
+   display: block;
+   width: 300px;
+}
+   
+.emailinput {
+       width: 300px;
+       margin: auto;
+       display: block;
+   }
+
+.messageinput {
+   width: 300px;
+   padding-bottom: 60px;
+   vertical-align: text-top;
+   box-sizing: border-box; 
+   margin: auto;
+   display: block;
+}
+
+.submitinput{
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+       margin-top: 10px;
+       margin-left: auto;
+       background: white;
+       cursor: pointer;
+       width: 300px;
+       height: 40px;
+       font-size: 10px;
+       font-family: arial black, arial, sans-serif;
+       border-color: #3c4043;
+       margin: auto;
+       display: block;
+}
+
+.footer h1{
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 
