@@ -118,7 +118,7 @@ a:hover{
   width: 100%;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 110px;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -128,7 +128,7 @@ transform-origin: 0% 0%;
 }
 
 #menu li{
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 #menu a {
@@ -144,28 +144,37 @@ transform-origin: 0% 0%;
 }
 
 
-.instagram img{
-    height: 10%;
-    width: 10%;
-    padding: 0px;
-    margin-left: 20%;
-    margin-top: 1%;
+.socialMedia{
+  display: block;
+  margin: 0 auto;
 }
 
-
-.linkedin img{
+.linkedIn img{
     height: 10%;
     width: 10%;
     padding: 0px;
-    margin-left: 45%;
+    margin-top: 1%;
+    margin-left: -15%;
+    z-index: 1;
+    position: absolute;
 }
 
 .github img{
     height: 10%;
     width: 10%;
     padding: 0px;
-    margin-left: 70%;
+    margin-left: 5%;
     margin-top: 1%;
+    z-index: 1;
+    position: absolute;
+}
+
+.linkedIn a{
+  width: auto;
+ }
+
+.github a{
+ width: auto;
 }
 
 //home section
@@ -307,10 +316,11 @@ transform-origin: 0% 0%;
     text-align: center;
     border: 1.5px solid black;
     border-radius: 3px;
-    margin-top: -120%;
+    margin-top: -100%;
     margin-left: 55%;
     z-index: 2;
-    position: relative;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .connectButton a{
@@ -350,7 +360,7 @@ transform-origin: 0% 0%;
 
 #aboutMe{
     background-color: $altc;
-    margin-top: -10%;
+    margin-top: -12%;
     height: auto;
     padding-bottom: 40px;
     position: relative;
@@ -471,7 +481,7 @@ transform-origin: 0% 0%;
     display: block;
     width: 100%;
     height: auto;
-    margin-top: -60px;
+    margin-top: -6%;
     position: relative;
     padding-bottom: 5px;
  
@@ -509,19 +519,21 @@ transform-origin: 0% 0%;
 .nameinput {
     margin: auto;
     display: block;
-    width: 300px;
+    width: 290px;
  }
     
 .emailinput {
-        width: 300px;
+        width: 290px;
 
     }
 
 .messageinput {
-    width: 300px;
+    width: 290px;
     padding-bottom: 60px;
     vertical-align: text-top;
     box-sizing: border-box; 
+    margin: auto;
+    display: block;
 }
 
 input[type="submit"] {
@@ -677,29 +689,33 @@ transform-origin: 0% 0%;
 }
 
 
-.instagram img{
-   height: 10%;
-   width: 10%;
-   padding: 0px;
-   // box-shadow: -0px -0px 0px 1px $navc; 
-}
 
-.linkedin img{
-   height: 10%;
-   width: 10%;
-   padding: 0px;
-   margin-left: 150px;
-   margin-top: -68px;
-   // box-shadow: -0px -0px 0px 1px $navc; 
+.linkedIn img{
+  height: 10%;
+  width: 10%;
+  padding: 0px;
+  margin-top: 1%;
+  margin-left: -22%;
+  z-index: 1;
+  position: absolute;
 }
 
 .github img{
-   height: 10%;
-   width: 10%;
-   padding: 0px;
-   margin-right: 150px;
-   margin-top: -70px;
-   // box-shadow: -0px -0px 0px 1px $navc; 
+  height: 10%;
+  width: 10%;
+  padding: 0px;
+  margin-left: -10%;
+  margin-top: 1%;
+  z-index: 1;
+  position: absolute;
+}
+
+.linkedIn a{
+width: auto;
+}
+
+.github a{
+width: auto;
 }
 
 //home section
@@ -745,7 +761,7 @@ transform-origin: 0% 0%;
 }
 
 #title h2{
-   font-size: 75px;
+   font-size: 89px;
    font-family: $tff;
    color: white;
    text-align: center;
@@ -833,10 +849,11 @@ transform-origin: 0% 0%;
    text-align: center;
    border: 1.5px solid black;
    border-radius: 3px;
-   margin-top: -110%;
+   margin-top: -100%;
    margin-left: 60%;
    z-index: 2;
-   position: relative;
+   position: absolute;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .connectButton a{
@@ -997,7 +1014,7 @@ transform-origin: 0% 0%;
    display: block;
    width: 100%;
    height: auto;
-   margin-top: -60px;
+   margin-top: -20px;
    padding-bottom: 5px;
    position: relative;
 
@@ -1079,7 +1096,15 @@ input[type="submit"] {
   padding-bottom: 5px;
   text-align: center;
 }
- 
+
+.socialMedia{
+  display: block;
+  margin-left: 190px;
+}
+
+
+
+
 
 }
 
@@ -1225,28 +1250,36 @@ transform-origin: 0% 0%;
 }
 
 
-.instagram img{
-   height: 5%;
-   width: 5%;
-   margin-top: -5px;
-
-   // box-shadow: -0px -0px 0px 1px $navc; 
-}
-
-.linkedin img{
-   height: 5%;
-   width: 5%;
-   margin-top: 1px;
-   // box-shadow: -0px -0px 0px 1px $navc; 
+.linkedIn img{
+  height: 10%;
+  width: 10%;
+  padding: 0px;
+  margin-top: 0%;
+  margin-left: -8%;
+  z-index: 1;
+  position: absolute;
 }
 
 .github img{
-   height: 5%;
-   width: 5%;
-   padding: 0px;
+  height: 10%;
+  width: 10%;
+  padding: 0px;
+  margin-left: -2%;
+  margin-top: 0%;
+  z-index: 1;
+  position: absolute;
+}
+
+.linkedIn a{
+width: auto;
+}
+
+.github a{
+width: auto;
+}
 
    // box-shadow: -0px -0px 0px 1px $navc; 
-}
+
 
 //home section
 
@@ -1291,7 +1324,7 @@ transform-origin: 0% 0%;
 }
 
 #title h2{
-   font-size: 115px;
+   font-size: 120px;
    font-family: $tff;
    color: white;
    text-align: center;
@@ -1392,7 +1425,8 @@ transform-origin: 0% 0%;
    margin-top: -50%;
    margin-left: 60%;
    z-index: 2;
-   position: relative;
+   position: absolute;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .connectButton:hover{
@@ -1493,6 +1527,8 @@ transform-origin: 0% 0%;
    z-index: 2;
    position: relative;
 
+   
+
 }
 
 
@@ -1525,7 +1561,7 @@ transform-origin: 0% 0%;
 }
 
 #portfolio h1{
-   font-size: 30px;
+   font-size: 50px;
    font-family: $ff;
    text-align: center;
    margin-top: -10%;
@@ -1555,14 +1591,14 @@ transform-origin: 0% 0%;
    display: block;
    width: 100%;
    height: auto;
-   margin-top: -60px;
+   margin-top: -20px;
    position: relative;
    padding-bottom: 30px;
 
 }
 
 #contact h1{
-   font-size: 30px;
+   font-size: 50px;
    font-family: $ff;
    text-align: center;
    margin-top: 20px;
@@ -1636,6 +1672,9 @@ input[type="submit"] {
   text-align: center;
 }
 
-
 }
+
+
+
+
 
