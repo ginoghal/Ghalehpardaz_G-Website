@@ -15,8 +15,8 @@ if(isset($_GET['filter'])){
 
     $getMovies = getMoviesByFilter($args);
 }else{
-    $movie_table = 'tbl_movies';
-    $getMovies = getAll($movie_table);
+    // $movie_table = 'tbl_movies';
+    // $getMovies = getAll($movie_table);
 }
 ?>
 
