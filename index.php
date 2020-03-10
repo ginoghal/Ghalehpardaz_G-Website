@@ -65,10 +65,22 @@ if(isset($_GET['filter'])){
 
 <div id="portfolio">
         <h1>My Portfolio of Work</h1>
+        <h2>Motion Design Videos</h2>
         <div class="nintendoSwitch">
         <h3>Switch Commercial</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/HzqdvgxGsmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+
+        <div class="compilationVideo">
+        <h3>Cinema 4D Compilation Video</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="beeProject">
+        <h3>Bee Chance - Bee Project</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
 </div>
 
 
