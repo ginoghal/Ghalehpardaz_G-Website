@@ -30,8 +30,8 @@ if(isset($_GET['filter'])){
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/style.css">
     <!-- <link rel="shortcut icon" type="image/png" href="public/images/Glogofavicon.png"> -->
-    <link rel="shortcut icon" href="public/images/favicon-2.ico" type="image/x-icon">
-    <link rel="icon" href="public/images/favicon-2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap" rel="stylesheet">
     <title>Welcome to the movie cms</title>
 </head>
