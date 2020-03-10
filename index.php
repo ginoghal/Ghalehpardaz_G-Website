@@ -29,6 +29,7 @@ if(isset($_GET['filter'])){
     <title>Gino portfolio</title>
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="public/images/Glogofavicon.png">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap" rel="stylesheet">
     <title>Welcome to the movie cms</title>
 </head>
