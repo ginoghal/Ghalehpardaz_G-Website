@@ -2,22 +2,22 @@
 require_once 'load.php';
 
 
-if(isset($_GET['filter'])){
-    $args = array(
-        'tbl'=>'tbl_movies',
-        'tbl2'=>'tbl_genre',
-        'tbl3'=>'tbl_mov_genre',
-        'col'=>'movies_id',
-        'col2'=>'genre_id',
-        'col3'=>'genre_name',
-        'filter'=>$_GET['filter']
-    );
+// if(isset($_GET['filter'])){
+//     $args = array(
+//         'tbl'=>'tbl_movies',
+//         'tbl2'=>'tbl_genre',
+//         'tbl3'=>'tbl_mov_genre',
+//         'col'=>'movies_id',
+//         'col2'=>'genre_id',
+//         'col3'=>'genre_name',
+//         'filter'=>$_GET['filter']
+//     );
 
-    $getMovies = getMoviesByFilter($args);
-}else{
-    // $movie_table = 'tbl_movies';
-    // $getMovies = getAll($movie_table);
-}
+//     $getMovies = getMoviesByFilter($args);
+// }else{
+//     // $movie_table = 'tbl_movies';
+//     // $getMovies = getAll($movie_table);
+// }
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +46,7 @@ if(isset($_GET['filter'])){
           <h3>I am a Front-end Developer and Motion Designer</h3>
           <div class="profileImage"><img src="public/images/ginogprofilepic.png" alt="ginoProfilePic"></div>
           <button class="connectButton"><a href="#contact"> Connect With Me!</a></button>
-         <div class="punisher"><img src="public/images/tattoopunisher.png" alt="punisher"></div>
+        
       </div>
 
 
@@ -57,7 +57,7 @@ if(isset($_GET['filter'])){
         <h4>I am striving to improve at my craft everyday. I returned to school and rebuilt myself so that I could provide my pug with the best life possible.</h4>
         
         <div class="pug"><img src="public/images/Pugsley.png" alt="pug"></div>
-    </div>
+</div>
 
 
 <!-- <div id="portfolioWaves"> -->
@@ -69,16 +69,19 @@ if(isset($_GET['filter'])){
         <div class="nintendoSwitch">
         <h3>Switch Commercial</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/HzqdvgxGsmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Description</h4>
         </div>
 
         <div class="compilationVideo">
         <h3>Cinema 4D Compilation Video</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Description</h4>
         </div>
 
         <div class="beeProject">
         <h3>Bee Chance - Bee Project</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Description</h4>
         </div>
 
 </div>
@@ -114,5 +117,5 @@ if(isset($_GET['filter'])){
 </body>
 </html>
 
-<?php include 'templates/header.php'?>
+
 <?php include 'templates/footer.php';?>
