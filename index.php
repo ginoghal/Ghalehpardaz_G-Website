@@ -1,23 +1,6 @@
 <?php
 require_once 'load.php';
 
-
-// if(isset($_GET['filter'])){
-//     $args = array(
-//         'tbl'=>'tbl_movies',
-//         'tbl2'=>'tbl_genre',
-//         'tbl3'=>'tbl_mov_genre',
-//         'col'=>'movies_id',
-//         'col2'=>'genre_id',
-//         'col3'=>'genre_name',
-//         'filter'=>$_GET['filter']
-//     );
-
-//     $getMovies = getMoviesByFilter($args);
-// }else{
-//     // $movie_table = 'tbl_movies';
-//     // $getMovies = getAll($movie_table);
-// }
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +16,7 @@ require_once 'load.php';
     <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="public/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap" rel="stylesheet">
-    <title>Welcome to the movie cms</title>
+
 </head>
 <body>
 
@@ -66,23 +49,63 @@ require_once 'load.php';
 <div id="portfolio">
         <h1>My Portfolio of Work</h1>
         <h2>Motion Design Videos</h2>
+
         <div class="nintendoSwitch">
         <h3>Switch Commercial</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HzqdvgxGsmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/HzqdvgxGsmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
 
         <div class="compilationVideo">
         <h3>Cinema 4D Compilation Video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
 
         <div class="beeProject">
         <h3>Bee Chance - Bee Project</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
+
+        <div class="sportsnet">
+        <h3>SportsNet 4D: Cowboys vs Bears Intro </h3>
+        <iframe src="https://www.youtube.com/watch?v=ldewKXt8X2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Description</h4>
+        </div>
+
+        <div class="mclaren">
+        <h3>Mclaren Commercial 4D</h3>
+        <iframe src="https://www.youtube.com/embed/v5cUnaQP-lY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Description</h4>
+        </div>
+
+        <div class="musicMixer">
+        <h3>Music Mixer</h3>
+        <a href="https://github.com/ginoghal/Ghalehpardaz_G_MusicMixer"><img src="public/images/MusicMixer.png" alt="musicmixer"></a>
+        <h4>Description</h4>
+        </div>
+
+        <div class="anglers">
+        <h3>Anglers Website</h3>
+        <a href="https://github.com/ginoghal/Ghalehpardaz_G-Helder_J-Anglers.org"><img src="public/images/Anglers.png" alt="anglers"></a>
+        <h4>Description</h4>
+        </div>
+
+        <div class="ufc">
+        <h3>UFC Titles Infographic</h3>
+        <a href="https://github.com/ginoghal/ginoghalehpardaz_UFCInforgraphic"><img src="public/images/ufctitle.png" alt="ufc"></a>
+        <h4>Description</h4>
+        </div>
+
+        <div class="tattoo">
+        <h3>Tattoo Project</h3>
+       <img src="public/images/ginotattoo.jpg" alt="tattoo">
+        <h4>Description</h4>
+        </div>
+
+
+
 
 </div>
 
@@ -97,7 +120,7 @@ require_once 'load.php';
   <input class="emailinput" name="email_address">
  <br>
   <h3>Message:</h3><br>
-  <input class="messageinput" name="message">
+  <textarea v-model="message" class="messageinput" type="text" autocomplete="off" id="textarea"></textarea>
    <div class="submitinput"></div>
 
    <input type="submit" value="Submit">
