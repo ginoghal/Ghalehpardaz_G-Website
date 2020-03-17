@@ -70,7 +70,7 @@ require_once 'load.php';
 
         <div class="sportsnet">
         <h3>SportsNet 4D: Cowboys vs Bears Intro </h3>
-        <iframe src="https://www.youtube.com/watch?v=ldewKXt8X2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/ldewKXt8X2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
 
