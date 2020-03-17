@@ -238,13 +238,13 @@ transform-origin: 0% 0%;
     z-index: 1;
 }
 
-.punisher img{
-  width: 0%;
-  margin-top: -20%;
-  margin-left: 70%;
-  z-index: 2;
-  position: relative;
-}
+// .punisher img{
+//   width: 0%;
+//   margin-top: -20%;
+//   margin-left: 70%;
+//   z-index: 2;
+//   position: relative;
+// }
 
 .profileImage img{
     height: auto;
@@ -425,20 +425,6 @@ transform-origin: 0% 0%;
 // portfolio section
 
 
-// #portfolioWaves{
-//     margin-top: 46%;
-//     width: 100%;
-//     height: auto;
-// }
-
-// #portfolioWaves img{
-//     margin-top: -60%;
-//     width: 100%;
-//     height: auto;
-//     z-index: 3;
-//     position: relative;
-// }
-
 #portfolio{
     background-color: $mc;
     display: block;
@@ -456,25 +442,194 @@ transform-origin: 0% 0%;
     text-align: center;
     margin-top: -10%;
     padding-top: 20px;
-
 }
+
+#portfolio h2{
+  font-family: 25px;
+  font-family: $ff;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.nintendoSwitch h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nintendoSwitch iframe{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.nintendoSwitch h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.compilationVideo h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.compilationVideo iframe{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.compilationVideo h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.beeProject h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.beeProject iframe{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.beeProject h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.sportsnet h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sportsnet iframe{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.sportsnet h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.mclaren h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mclaren iframe{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mclaren h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.musicMixer h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.musicMixer img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.musicMixer h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.anglers h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.anglers img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.anglers h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.ufc h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ufc img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.ufc h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.tattoo h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tattoo img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.tattoo h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+
+
+
 
 
 // contact section
 
-// #contactWaves{
-//     margin-top: -60px;
-//     width: 100%;
-//     z-index: 4;
-//     position: relative;
-// }
-
-
-// #contactWaves img{
-//     margin-top: -1%;
-//     width: 100%;
-//     height: auto;
-// }
 
 #contact{
     background-color: $altc2;
@@ -1208,13 +1363,14 @@ display: block;
 }
 
 #menu{
- position: relative;
+ position: fixed;
  z-index: 3;
  width: 100%;
+ height: 86.5%;
  margin: -100px 0 0 -50px;
  padding: 50px;
  padding-top: 125px;
- background: #ededed;
+ background-color:rgba(237,237,237, 0.8);
  list-style-type: none;
  -webkit-font-smoothing: antialiased;
 transform-origin: 0% 0%;
@@ -1251,20 +1407,20 @@ transform-origin: 0% 0%;
 
 
 .linkedIn img{
-  height: 10%;
-  width: 10%;
+  height: 5%;
+  width: 5%;
   padding: 0px;
   margin-top: 0%;
-  margin-left: -8%;
+  margin-left: -7%;
   z-index: 1;
   position: absolute;
 }
 
 .github img{
-  height: 10%;
-  width: 10%;
+  height: 5%;
+  width: 5%;
   padding: 0px;
-  margin-left: -2%;
+  margin-left: 2%;
   margin-top: 0%;
   z-index: 1;
   position: absolute;
@@ -1343,14 +1499,14 @@ width: auto;
    z-index: 1;
 }
 
-.punisher img{
-  width: 30%;
-  margin-top: -30%;
-  margin-left: 65%;
-  padding-bottom: 20px;
-  z-index: 2;
-  position: absolute;
-}
+// .punisher img{
+//   width: 30%;
+//   margin-top: -30%;
+//   margin-left: 65%;
+//   padding-bottom: 20px;
+//   z-index: 2;
+//   position: absolute;
+// }
 
 .profileImage img{
    height: auto;
@@ -1553,7 +1709,7 @@ width: auto;
    background-color: $mc;
    display: block;
    width: 100%;
-   height: 50%;
+   height: 100%;
    margin-top: -50px;
    padding-top: 10%;
    position: relative;
