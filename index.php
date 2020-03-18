@@ -111,7 +111,7 @@ require_once 'load.php';
 
 
     <div id="contact">
-        <h1>Lets Connect</h1>
+        <h1>Lets Connect (ill let you pet my Pug)</h1>
     <form id="contactForm">
  <h3> Name:</h3><br>
   <input class="nameinput" name="name">
