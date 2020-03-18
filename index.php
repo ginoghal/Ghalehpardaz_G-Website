@@ -110,7 +110,7 @@ require_once 'load.php';
 </div>
 
 
-    <div id="contact">
+<div id="contact">
         <h1>Lets Connect (ill let you pet my Pug!)</h1>
     <form id="contactForm">
  <h3> Name:</h3><br>
