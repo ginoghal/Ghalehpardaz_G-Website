@@ -113,19 +113,20 @@ a:hover{
 }
 
 #menu{
-  position: relative;
+  position: fixed;
   z-index: 3;
   width: 100%;
+  height: 86.5%;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 110px;
-  background: #ededed;
+  padding-top: 125px;
+  background-color:rgba(237,237,237, 0.8);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-transform-origin: 0% 0%;
+ transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
-}
+ }
 
 #menu li{
   padding: 15px 0;
@@ -822,19 +823,20 @@ a:hover{
 }
 
 #menu{
- position: relative;
- z-index: 3;
- width: 100%;
- margin: -100px 0 0 -50px;
- padding: 50px;
- padding-top: 125px;
- background: #ededed;
- list-style-type: none;
- -webkit-font-smoothing: antialiased;
-transform-origin: 0% 0%;
- transform: translate(-100%, 0);
- transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
-}
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 86.5%;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background-color:rgba(237,237,237, 0.8);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+ transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
+ }
 
 #menu li{
  padding: 10px 0;
@@ -1122,20 +1124,6 @@ width: auto;
 // portfolio section
 
 
-// #portfolioWaves{
-//     margin-top: 46%;
-//     width: 100%;
-//     height: auto;
-// }
-
-// #portfolioWaves img{
-//     margin-top: -60%;
-//     width: 100%;
-//     height: auto;
-//     z-index: 3;
-//     position: relative;
-// }
-
 #portfolio{
    background-color: $mc;
    display: block;
@@ -1153,7 +1141,214 @@ width: auto;
    text-align: center;
    margin-top: -10%;
    padding-top: 20px;
+}
 
+
+#portfolio{
+  background-color: $mc;
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin-top: -50px;
+  padding-top: 10%;
+  position: relative;
+
+}
+
+#portfolio h1{
+  font-size: 30px;
+  font-family: $ff;
+  text-align: center;
+  margin-top: -10%;
+  padding-top: 20px;
+}
+
+#portfolio h2{
+font-family: 25px;
+font-family: $ff;
+text-align: center;
+padding-bottom: 20px;
+margin-top: 10px;
+}
+
+.nintendoSwitch h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.nintendoSwitch iframe{
+width: 100%;
+height: 350px;
+margin: 0 auto;
+}
+
+.nintendoSwitch h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.compilationVideo h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.compilationVideo iframe{
+width: 100%;
+height: 350px;
+margin: 0 auto;
+}
+
+.compilationVideo h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.beeProject h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.beeProject iframe{
+width: 100%;
+height: 350px;
+margin: 0 auto;
+}
+
+.beeProject h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.sportsnet h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.sportsnet iframe{
+width: 100%;
+height: 350px;
+margin: 0 auto;
+}
+
+.sportsnet h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.mclaren h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.mclaren iframe{
+width: 100%;
+height: 350px;
+margin: 0 auto;
+}
+
+.mclaren h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.musicMixer h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.musicMixer img{
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+
+.musicMixer h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.anglers h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.anglers img{
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+
+.anglers h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.ufc h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.ufc img{
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+
+.ufc h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+}
+
+.tattoo h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 2%;
+}
+
+.tattoo img{
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+
+.tattoo h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
 }
 
 
@@ -1733,6 +1928,233 @@ width: auto;
    padding-top: 20px;
 
 }
+
+
+#portfolio{
+  background-color: $mc;
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin-top: -50px;
+  padding-top: 10%;
+  position: relative;
+
+}
+
+#portfolio h1{
+  font-size: 30px;
+  font-family: $ff;
+  text-align: center;
+  margin-top: -10%;
+  padding-top: 20px;
+}
+
+#portfolio h2{
+font-family: 25px;
+font-family: $ff;
+text-align: center;
+padding-bottom: 20px;
+margin-top: 10px;
+}
+
+.nintendoSwitch h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.nintendoSwitch iframe{
+width: 50%;
+height: 400px;
+margin: 0 auto;
+display: block;
+}
+
+.nintendoSwitch h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.compilationVideo h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.compilationVideo iframe{
+width: 50%;
+height: 400px;
+margin: 0 auto;
+display: block;
+}
+
+.compilationVideo h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.beeProject h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.beeProject iframe{
+width: 50%;
+height: 400px;
+margin: 0 auto;
+display: block;
+}
+
+.beeProject h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.sportsnet h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.sportsnet iframe{
+width: 50%;
+height: 400px;
+margin: 0 auto;
+display: block;
+}
+
+.sportsnet h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.mclaren h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.mclaren iframe{
+width: 50%;
+height: 400px;
+margin: 0 auto;
+display: block;
+}
+
+.mclaren h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.musicMixer h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.musicMixer img{
+width: 50%;
+height: auto;
+margin: 0 auto;
+display: block;
+}
+
+.musicMixer h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.anglers h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.anglers img{
+width: 50%;
+height: auto;
+margin: 0 auto;
+display: block;
+}
+
+.anglers h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.ufc h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.ufc img{
+width: 50%;
+height: auto;
+margin: 0 auto;
+display: block;
+}
+
+.ufc h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.tattoo h3{
+font-family: $ff;
+font-size: 20px;
+text-align: center;
+padding-bottom: 1%;
+}
+
+.tattoo img{
+width: 50%;
+height: auto;
+margin: 0 auto;
+display: block;
+}
+
+.tattoo h4{
+font-family: $ff;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
 
 
 // contact section
