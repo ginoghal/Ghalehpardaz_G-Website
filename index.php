@@ -48,48 +48,48 @@ require_once 'load.php';
 
 <div id="portfolio">
         <h1>My Portfolio of Work</h1>
-        <h2>Motion Design Videos</h2>
+        <h2>Motion Design Videos, Web Development and Design and Graphic Design Work</h2>
 
         <div class="nintendoSwitch">
         <h3>Switch Commercial</h3>
-        <iframe src="https://www.youtube.com/embed/HzqdvgxGsmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h4>Description</h4>
+        <iframe src="https://www.youtube.com/embed/HzqdvgxGsmk" frameborder="0" allowfullscreen></iframe>
+        <h4>This was a fun project for me as I wanted to see how many different locations I could come up with.</h4>
         </div>
 
         <div class="compilationVideo">
         <h3>Cinema 4D Compilation Video</h3>
-        <iframe src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
 
         <div class="beeProject">
         <h3>Bee Chance - Bee Project</h3>
-        <iframe src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
 
         <div class="sportsnet">
         <h3>SportsNet 4D: Cowboys vs Bears Intro </h3>
-        <iframe src="https://www.youtube.com/embed/ldewKXt8X2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/ldewKXt8X2Q" frameborder="0" allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
 
         <div class="mclaren">
         <h3>Mclaren Commercial 4D</h3>
-        <iframe src="https://www.youtube.com/embed/v5cUnaQP-lY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/v5cUnaQP-lY" frameborder="0"  allowfullscreen></iframe>
         <h4>Description</h4>
         </div>
 
         <div class="musicMixer">
         <h3>Music Mixer</h3>
         <a href="https://github.com/ginoghal/Ghalehpardaz_G_MusicMixer"><img src="public/images/MusicMixer.png" alt="musicmixer"></a>
-        <h4>Description</h4>
+        <h4>This was a group project with me taking the lead on the Backend - in this case the Javascript functionality.</h4>
         </div>
 
         <div class="anglers">
         <h3>Anglers Website</h3>
         <a href="https://github.com/ginoghal/Ghalehpardaz_G-Helder_J-Anglers.org"><img src="public/images/Anglers.png" alt="anglers"></a>
-        <h4>Description</h4>
+        <h4>This Anglers project was a group project where we both contributed to the total build of the project.</h4>
         </div>
 
         <div class="ufc">
@@ -101,7 +101,7 @@ require_once 'load.php';
         <div class="tattoo">
         <h3>Tattoo Project</h3>
        <img src="public/images/ginotattoo.jpg" alt="tattoo">
-        <h4>Description</h4>
+        <h4>This tattoo project was meant to try and incorporate the design to your body as seamlessly as possible.</h4>
         </div>
 
 
