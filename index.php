@@ -1,7 +1,15 @@
 <?php
 require_once 'load.php';
+require_once 'user.php';
+
+
+//This is how the first part of your php page should look like, 
+//just copy and paste the form and remove the confirm logged ins on both files
+
 
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -59,25 +67,25 @@ require_once 'load.php';
         <div class="compilationVideo">
         <h3>Cinema 4D Compilation Video</h3>
         <iframe src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allowfullscreen></iframe>
-        <h4>Description</h4>
+        <h4>This demo reel was a collaboration of all my projects created in Cinema4D.</h4>
         </div>
 
         <div class="beeProject">
         <h3>Bee Chance - Bee Project</h3>
         <iframe src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allowfullscreen></iframe>
-        <h4>Description</h4>
+        <h4>This was a collaborative project with a one hour time limit based around saving the bees.</h4>
         </div>
 
         <div class="sportsnet">
         <h3>SportsNet 4D: Cowboys vs Bears Intro </h3>
         <iframe src="https://www.youtube.com/embed/ldewKXt8X2Q" frameborder="0" allowfullscreen></iframe>
-        <h4>Description</h4>
+        <h4>Project started in class using both Cinema 4D and After Effects to create a sports net like commercial for an upcoming game between the Cowboys and Bears.</h4>
         </div>
 
         <div class="mclaren">
         <h3>Mclaren Commercial 4D</h3>
         <iframe src="https://www.youtube.com/embed/v5cUnaQP-lY" frameborder="0"  allowfullscreen></iframe>
-        <h4>Description</h4>
+        <h4>This is a Mclaren commercial created with both Cinema 4D and After Effects. The car models and music are pre existing ones but the transition effect and video itself are put together by me.</h4>
         </div>
 
         <div class="musicMixer">
@@ -95,7 +103,7 @@ require_once 'load.php';
         <div class="ufc">
         <h3>UFC Titles Infographic</h3>
         <a href="https://github.com/ginoghal/ginoghalehpardaz_UFCInforgraphic"><img src="public/images/ufctitle.png" alt="ufc"></a>
-        <h4>Description</h4>
+        <h4>This infograph was designed as a break down of all the countries that have won UFC titles and the number of titles they have won. In addition I have added a fun fact to each one that appears when you click on each country.</h4>
         </div>
 
         <div class="tattoo">
@@ -112,23 +120,19 @@ require_once 'load.php';
 
 <div id="contact">
         <h1>Lets Connect (ill let you pet my Pug!)</h1>
-    <form id="contactForm">
- <h3> Name:</h3><br>
-  <input class="nameinput" name="name">
-  <br>
-  <h3>Email:</h3><br>
-  <input class="emailinput" name="email_address">
- <br>
-  <h3>Message:</h3><br>
-  <textarea v-model="message" class="messageinput" type="text" autocomplete="off" id="textarea"></textarea>
-   <div class="submitinput"></div>
+       
+    <form action="index.php" method="post">
+    <label>First name:</label>
+    <input type="text" name="fname" value=""><br><br>
+    <label>Email:</label>
+    <input type="text" name="email" value=""><br><br>
+    <label>Message</label>
+    <input type="text" name="username" value=""><br><br>
 
-   <input type="submit" value="Submit">
-</div>
+    <button type="submit" name="submit">Submit</button>
+    </form>
 
-</form>
  
-
     </div>
 </div>
 </div>
