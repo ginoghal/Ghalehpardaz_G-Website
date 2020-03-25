@@ -695,7 +695,7 @@ a:hover{
 .messageinput {
     width: 290px;
     padding-bottom: 60px;
-    vertical-align: text-top;
+    // vertical-align: text-top;
     box-sizing: border-box; 
     margin: auto;
     display: block;
@@ -1424,7 +1424,7 @@ padding-bottom: 20px;
 .messageinput {
    width: 300px;
    padding-bottom: 60px;
-   vertical-align: text-top;
+  //  vertical-align: text-top;
    box-sizing: border-box; 
    margin: auto;
    display: block;
@@ -1975,7 +1975,6 @@ display: block;
 font-family: $ff;
 text-align: center;
 font-size: 15px;
-width: 50%;
 padding-bottom: 20px;
 padding-top: 20px;
 }
@@ -2235,7 +2234,7 @@ padding-top: 20px;
 .messageinput {
    width: 300px;
    padding-bottom: 60px;
-   vertical-align: text-top;
+  //  vertical-align: text-top;
    box-sizing: border-box; 
    margin: auto;
    display: block;
