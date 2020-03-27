@@ -6,6 +6,20 @@ require_once 'user.php';
 //This is how the first part of your php page should look like, 
 //just copy and paste the form and remove the confirm logged ins on both files
 
+if(isset($_POST['submit'])){
+    $name = trim($_POST['name']);
+    $email = trim($_POST['email']);
+    $message = trim($_POST['message']);
+
+    if(empty($name) || empty($email) || empty($message)){
+        $message = 'Please fill required fields!';
+    }else{
+        
+    
+        createUser($name, $email, $message);
+    }
+
+}
 
 ?>
 
@@ -123,11 +137,11 @@ require_once 'user.php';
        
     <form action="index.php" method="post">
     <label>First name:</label>
-    <input type="text" name="fname" value=""><br><br>
+    <input type="text" name="name" value=""><br><br>
     <label>Email:</label>
     <input type="text" name="email" value=""><br><br>
     <label>Message</label>
-    <input type="text" name="username" value=""><br><br>
+    <input type="text" name="message" value=""><br><br>
 
     <button type="submit" name="submit">Submit</button>
     </form>
