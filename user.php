@@ -13,7 +13,7 @@ require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
 
-function createUser($name, $message, $email){
+function createUser($name, $email, $message){
 
     $mail = new PHPMailer(true);
 
@@ -34,7 +34,7 @@ function createUser($name, $message, $email){
             // Content
             $mail->isHTML(true);                                  // Set email format to HTML
             $mail->Subject = 'Contact from ' .$name;
-            $mail->Body    = ' Name:  '.$name.'<br> Email: '.$email.'<br> message: '.$message.'';
+            $mail->Body    = ' Name:  '.$name.'<br> Email: '.$email.'<br> Message: '.$message.'';
 
             if(!$mail->send()) {
                 echo 'Message could not be sent.';

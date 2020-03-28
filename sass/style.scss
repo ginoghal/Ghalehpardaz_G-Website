@@ -678,27 +678,29 @@ a:hover{
     border: 2px solid black;
     padding: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 
 }
 
-.nameinput {
+input.name{
     margin: auto;
     display: block;
     width: 290px;
  }
     
-.emailinput {
+input.email {
         width: 290px;
 
     }
 
-.messageinput {
+textarea.message {
     width: 290px;
     padding-bottom: 60px;
     // vertical-align: text-top;
     box-sizing: border-box; 
     margin: auto;
     display: block;
+    margin-top: 5px;
 }
 
 input[type="submit"] {
@@ -712,6 +714,20 @@ input[type="submit"] {
         font-family: arial black, arial, sans-serif;
         border-color: #3c4043;
 }
+
+button.submit {
+  margin-top: 15px;
+  margin-left: auto;
+  background: white;
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+  font-size: 10px;
+  font-family: arial black, arial, sans-serif;
+  border-color: #3c4043;
+  display: block;
+}
+
 
 .footer h1{
   color: white;
@@ -1355,99 +1371,90 @@ padding-bottom: 20px;
 
 // contact section
 
-// #contactWaves{
-//     margin-top: -60px;
-//     width: 100%;
-//     z-index: 4;
-//     position: relative;
-// }
-
-
-// #contactWaves img{
-//     margin-top: -1%;
-//     width: 100%;
-//     height: auto;
-// }
 
 #contact{
-   background-color: $altc2;
-   display: block;
-   width: 100%;
-   height: auto;
-   margin-top: -20px;
-   padding-bottom: 5px;
-   position: relative;
+  background-color: $altc2;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -6%;
+  position: relative;
+  padding-bottom: 5px;
 
 }
 
 #contact h1{
-   font-size: 30px;
-   font-family: $ff;
-   text-align: center;
-   margin-top: 20px;
-   margin-left: 20px;
-   padding-top: 20px;
-   padding-right: 5px;
-   padding-bottom: 30px;
+  font-size: 30px;
+  font-family: $ff;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 30px;
 }
 
 #contact form h3{
-   text-align: center;
-   padding-top: 20px;
-   color: black;
-  
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+ 
 }
 
 #contactForm{
-   width: 400px;
-   display: block;
-   margin: auto;
-   background-color: whitesmoke;
-   border: 2px solid black;
-   padding: 5px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  display: block;
+  margin: auto;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 
 }
 
-.nameinput {
-   margin: auto;
-   display: block;
-   width: 300px;
+input.name{
+  margin: auto;
+  display: block;
+  width: 290px;
 }
-   
-.emailinput {
-       width: 300px;
-       margin: auto;
-       display: block;
+  
+input.email {
+      width: 290px;
 
-   }
+  }
 
-.messageinput {
-   width: 300px;
-   padding-bottom: 60px;
-  //  vertical-align: text-top;
-   box-sizing: border-box; 
-   margin: auto;
-   display: block;
-}
-
-.submitinput{
+textarea.message {
+  width: 290px;
+  padding-bottom: 60px;
+  box-sizing: border-box; 
+  margin: auto;
+  display: block;
   margin-top: 5px;
 }
 
-
 input[type="submit"] {
-       margin-top: 5%;
-       margin-left: auto;
-       background: white;
-       cursor: pointer;
-       width: 300px;
-       height: 40px;
-       font-size: 10px;
-       font-family: arial black, arial, sans-serif;
-       border-color: #3c4043;
-       margin: auto;
-       display: block;
+      margin-top: 5%;
+      margin-left: auto;
+      background: white;
+      cursor: pointer;
+      width: 300px;
+      height: 40px;
+      font-size: 10px;
+      font-family: arial black, arial, sans-serif;
+      border-color: #3c4043;
+}
+
+button.submit {
+margin: 10px auto;
+background: white;
+cursor: pointer;
+width: 300px;
+height: 40px;
+font-size: 10px;
+font-family: arial black, arial, sans-serif;
+border-color: #3c4043;
+display: block;
 }
 
 .footer h1{
@@ -1804,21 +1811,7 @@ width: auto;
    font-size: 14px;
 }
 
-// about section
 
-// #aboutWaves{
-//     z-index: 2;
-//     position: relative;
-//     height: 100%;
-//     width: 100%;
-//     margin-top: -10%;
-// }
-
-// #aboutWaves img{
-//     margin-top: -5%;
-//     height: auto;
-//     width: 100%;
-// }
 
 #about{
    background-color: $altc;
@@ -2165,99 +2158,94 @@ padding-top: 20px;
 
 
 // contact section
+// contact section
 
-// #contactWaves{
-//     margin-top: -60px;
-//     width: 100%;
-//     z-index: 4;
-//     position: relative;
-// }
-
-
-// #contactWaves img{
-//     margin-top: -1%;
-//     width: 100%;
-//     height: auto;
-// }
 
 #contact{
-   background-color: $altc2;
-   display: block;
-   width: 100%;
-   height: auto;
-   margin-top: -20px;
-   position: relative;
-   padding-bottom: 30px;
+  background-color: $altc2;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -6%;
+  position: relative;
+  padding-bottom: 5px;
 
 }
 
 #contact h1{
-   font-size: 50px;
-   font-family: $ff;
-   text-align: center;
-   margin-top: 20px;
-   margin-left: 20px;
-   padding-top: 20px;
-   padding-right: 5px;
-   padding-bottom: 30px;
+  font-size: 30px;
+  font-family: $ff;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 30px;
 }
 
 #contact form h3{
-   text-align: center;
-   padding-top: 20px;
-   color: black;
-  
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+ 
 }
 
 #contactForm{
-   width: 600px;
-   display: block;
-   margin: auto;
-   background-color: whitesmoke;
-   border: 2px solid black;
-   padding: 5px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  display: block;
+  margin: auto;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 
 }
 
-.nameinput {
-   margin: auto;
-   display: block;
-   width: 300px;
+input.name{
+  margin: auto;
+  display: block;
+  width: 290px;
 }
-   
-.emailinput {
-       width: 300px;
-       margin: auto;
-       display: block;
-   }
+  
+input.email {
+      width: 290px;
 
-.messageinput {
-   width: 300px;
-   padding-bottom: 60px;
-  //  vertical-align: text-top;
-   box-sizing: border-box; 
-   margin: auto;
-   display: block;
-}
+  }
 
-.submitinput{
-  margin-top: 20px;
+textarea.message {
+  width: 290px;
+  padding-bottom: 60px;
+  box-sizing: border-box; 
+  margin: auto;
+  display: block;
+  margin-top: 5px;
 }
 
 input[type="submit"] {
-       margin-top: 10px;
-       margin-left: auto;
-       background: white;
-       cursor: pointer;
-       width: 300px;
-       height: 40px;
-       font-size: 10px;
-       font-family: arial black, arial, sans-serif;
-       border-color: #3c4043;
-       margin: auto;
-       display: block;
+      margin-top: 5%;
+      margin-left: auto;
+      background: white;
+      cursor: pointer;
+      width: 300px;
+      height: 40px;
+      font-size: 10px;
+      font-family: arial black, arial, sans-serif;
+      border-color: #3c4043;
 }
+
+button.submit {
+margin: 10px auto;
+background: white;
+cursor: pointer;
+width: 300px;
+height: 40px;
+font-size: 10px;
+font-family: arial black, arial, sans-serif;
+border-color: #3c4043;
+display: block;
+}
+
 
 .footer h1{
   color: white;
@@ -2265,6 +2253,12 @@ input[type="submit"] {
   padding-bottom: 5px;
   text-align: center;
 }
+
+.socialMedia{
+  display: block;
+  margin-left: 190px;
+}
+
 
 }
 
