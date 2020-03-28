@@ -134,22 +134,24 @@ if(isset($_POST['submit'])){
 
 <div id="contact">
         <h1>Lets Connect (ill let you pet my Pug!)</h1>
+
+ <div id="contactForm">
        
     <form action="index.php" method="post">
-    <label>First name:</label>
-    <input type="text" name="name" value=""><br><br>
-    <label>Email:</label>
-    <input type="text" name="email" value=""><br><br>
-    <label>Message</label>
-    <input type="text" name="message" value=""><br><br>
+    <label class="nametext"><h5>First name:</h5></label>
+    <input type="text" name="name" class="name" value=""><br><br>
+    <label class="emailtext"><h5>Email:</h5></label>
+    <input type="text" name="email" class="email" value=""><br><br>
+    <label class="messagetext"><h5>Message<h5></label>
+    <textarea type="text" name="message" class="message" value=""></textarea>
 
-    <button type="submit" name="submit">Submit</button>
+    <button class="submit" name="submit">Submit</button>
     </form>
 
  
-    </div>
+ </div>
 </div>
-</div>
+
    
    
    
