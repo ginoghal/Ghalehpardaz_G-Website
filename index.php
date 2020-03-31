@@ -78,6 +78,12 @@ if(isset($_POST['submit'])){
         <h4>This was a fun project for me as I wanted to see how many different locations I could come up with.</h4>
         </div>
 
+        <div class="sportsViz">
+        <h3>Sports Vizualization Project</h3>
+        <iframe src="https://www.youtube.com/embed/ZXeNsoF2GgU" frameborder="0" allowfullscreen></iframe>
+        <h4>This was a collaborative project showcasing different sports and tracking various statistic visualizations on them.</h4>
+        </div>
+
         <div class="compilationVideo">
         <h3>Cinema 4D Compilation Video</h3>
         <iframe src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allowfullscreen></iframe>
