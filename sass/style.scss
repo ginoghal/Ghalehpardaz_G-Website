@@ -422,7 +422,6 @@ a:hover{
 
 }
 
-
 // portfolio section
 
 
@@ -467,6 +466,26 @@ a:hover{
 }
 
 .nintendoSwitch h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.sportsViz h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.sportsViz iframe{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.sportsViz h4{
   font-family: $ff;
   text-align: center;
   font-size: 15px;
@@ -873,8 +892,8 @@ a:hover{
 
 
 .linkedIn img{
-  height: 10%;
-  width: 10%;
+  height: 5%;
+  width: 5%;
   padding: 0px;
   margin-top: 1%;
   margin-left: -22%;
@@ -883,8 +902,8 @@ a:hover{
 }
 
 .github img{
-  height: 10%;
-  width: 10%;
+  height: 5%;
+  width: 5%;
   padding: 0px;
   margin-left: -10%;
   margin-top: 1%;
@@ -1208,6 +1227,26 @@ font-size: 15px;
 padding-bottom: 20px;
 }
 
+.sportsViz h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+  }
+  
+  .sportsViz iframe{
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  }
+  
+  .sportsViz h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  }
+
 .compilationVideo h3{
 font-family: $ff;
 font-size: 20px;
@@ -1466,7 +1505,8 @@ display: block;
 
 .socialMedia{
   display: block;
-  margin-left: 190px;
+  margin-left: 230px;
+  margin-top: 15px;
 }
 
 
@@ -1612,15 +1652,11 @@ transform-origin: 0% 0%;
  transform: none;
 }
 
-.socialMedia{
-  display: block;
-  margin: 0 auto;
-}
 
 
 .linkedIn img{
-  height: 5%;
-  width: 5%;
+  height: 6%;
+  width: 6%;
   padding: 0px;
   margin-top: 0%;
   margin-left: -7%;
@@ -1629,8 +1665,8 @@ transform-origin: 0% 0%;
 }
 
 .github img{
-  height: 5%;
-  width: 5%;
+  height: 6%;
+  width: 6%;
   padding: 0px;
   margin-left: 2%;
   margin-top: 0%;
@@ -1646,7 +1682,7 @@ width: auto;
 width: auto;
 }
 
-   // box-shadow: -0px -0px 0px 1px $navc; 
+
 
 
 //home section
@@ -1865,7 +1901,7 @@ width: auto;
    font-family: $ff;
    text-align: left;
    margin-top: 15px;
-   padding-left: 5%;
+   padding-left: 3%;
    padding-bottom: 5%;
    color: white;
 }
@@ -1887,21 +1923,6 @@ width: auto;
 
 
 // portfolio section
-
-
-// #portfolioWaves{
-//     margin-top: 46%;
-//     width: 100%;
-//     height: auto;
-// }
-
-// #portfolioWaves img{
-//     margin-top: -60%;
-//     width: 100%;
-//     height: auto;
-//     z-index: 3;
-//     position: relative;
-// }
 
 #portfolio{
    background-color: $mc;
@@ -1972,6 +1993,28 @@ font-size: 15px;
 padding-bottom: 20px;
 padding-top: 20px;
 }
+
+.sportsViz h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 1%;
+  }
+  
+  .sportsViz iframe{
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  }
+  
+  .sportsViz h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  }
 
 .compilationVideo h3{
 font-family: $ff;
@@ -2156,9 +2199,8 @@ padding-top: 20px;
 }
 
 
+// contact section
 
-// contact section
-// contact section
 
 
 #contact{
@@ -2166,7 +2208,7 @@ padding-top: 20px;
   display: block;
   width: 100%;
   height: auto;
-  margin-top: -6%;
+  margin-top: -45px;
   position: relative;
   padding-bottom: 5px;
 
@@ -2256,7 +2298,8 @@ display: block;
 
 .socialMedia{
   display: block;
-  margin-left: 190px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 
