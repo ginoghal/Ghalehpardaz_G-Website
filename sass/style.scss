@@ -1549,6 +1549,7 @@ a:hover{
  color: black;
 }
 
+
 #menuToggle{
  display: block;
  position: relative;
@@ -2115,8 +2116,14 @@ text-align: center;
 padding-bottom: 1%;
 }
 
+a.musicMixer{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 .musicMixer img{
-width: 50%;
+width: 100%;
 height: auto;
 margin: 0 auto;
 display: block;
@@ -2130,6 +2137,7 @@ padding-bottom: 20px;
 padding-top: 20px;
 }
 
+
 .anglers h3{
 font-family: $ff;
 font-size: 20px;
@@ -2137,8 +2145,14 @@ text-align: center;
 padding-bottom: 1%;
 }
 
+a.anglers{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 .anglers img{
-width: 50%;
+width: 100%;
 height: auto;
 margin: 0 auto;
 display: block;
@@ -2159,13 +2173,18 @@ text-align: center;
 padding-bottom: 1%;
 }
 
+a.ufc{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 .ufc img{
-width: 50%;
+width: 100%;
 height: auto;
 margin: 0 auto;
 display: block;
 }
-
 .ufc h4{
 font-family: $ff;
 text-align: center;

@@ -110,19 +110,19 @@ if(isset($_POST['submit'])){
 
         <div class="musicMixer">
         <h3>Music Mixer</h3>
-        <a href="https://github.com/ginoghal/Ghalehpardaz_G_MusicMixer"><img src="public/images/MusicMixer.png" alt="musicmixer"></a>
+        <a class="musicMixer" href="https://github.com/ginoghal/Ghalehpardaz_G_MusicMixer"><img src="public/images/MusicMixer.png" alt="musicmixer"></a>
         <h4>This was a group project with me taking the lead on the Backend - in this case the Javascript functionality.</h4>
         </div>
 
         <div class="anglers">
         <h3>Anglers Website</h3>
-        <a href="https://github.com/ginoghal/Ghalehpardaz_G-Helder_J-Anglers.org"><img src="public/images/Anglers.png" alt="anglers"></a>
+        <a class="anglers" href="https://github.com/ginoghal/Ghalehpardaz_G-Helder_J-Anglers.org"><img src="public/images/Anglers.png" alt="anglers"></a>
         <h4>This Anglers project was a group project where we both contributed to the total build of the project.</h4>
         </div>
 
         <div class="ufc">
         <h3>UFC Titles Infographic</h3>
-        <a href="https://github.com/ginoghal/ginoghalehpardaz_UFCInforgraphic"><img src="public/images/ufctitle.png" alt="ufc"></a>
+        <a class="ufc" href="https://github.com/ginoghal/ginoghalehpardaz_UFCInforgraphic"><img src="public/images/ufctitle.png" alt="ufc"></a>
         <h4>This infograph was designed as a break down of all the countries that have won UFC titles and the number of titles they have won. In addition I have added a fun fact to each one that appears when you click on each country.</h4>
         </div>
 
