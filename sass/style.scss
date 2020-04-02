@@ -248,7 +248,7 @@ a:hover{
     height: auto;
     width: 100%;
     margin-top: -5%;
-    margin-left: -15%;
+    margin-left: -10%;
     z-index: 0;
     position: relative;
 }
@@ -966,8 +966,8 @@ width: auto;
 .profileImage img{
    height: auto;
    width: 100%;
-   margin-top: -1%;
-   margin-left: -15%;
+   margin-top: -3%;
+   margin-left: -6%;
    z-index: 0;
    position: relative;
 }
@@ -1070,13 +1070,13 @@ width: auto;
 
 }
 #aboutMe h1{
-   font-size: 30px;
+   font-size: 35px;
    font-family: $ff;
    text-align: center;
    padding-top: 20px;
    padding-left: 5px;
    margin-top: -50px;
-   color: black;
+   color: white;
 
 }
 
@@ -1102,7 +1102,7 @@ width: auto;
    color: white;
 }
 
-#aboutMe h4{
+#aboutMe h4{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
    font-size: 25px;
    font-family: $ff;
    text-align: left;
@@ -1713,7 +1713,7 @@ width: auto;
    text-align: right;
    margin-top: 10px;
    padding-bottom: 10px;
-   padding-right: 8%;
+   padding-right: 2%;
    position: relative;
    z-index: 1;
 }
@@ -1729,9 +1729,9 @@ width: auto;
 
 .profileImage img{
    height: auto;
-   width: 50%;
-   margin-top: -1%;
-   margin-left: -1%;
+   width: 53%;
+   margin-top: -5%;
+   margin-left: 1%;
    z-index: 0;
    position: relative;
 }
@@ -1829,7 +1829,7 @@ width: auto;
 
 #aboutMe{
    background-color: $altc;
-   margin-top: 1%;
+   margin-top: -5%;
    height: auto;
    padding-bottom: 40px;
    position: relative;
@@ -1842,7 +1842,7 @@ width: auto;
    padding-top: 20px;
    padding-left: 5px;
    margin-top: -50px;
-   color: black;
+   color: white;
 
 }
 
