@@ -4,9 +4,6 @@ $altc: #553D67;
 $altc2: #99738E;
 $ff: Verdana, Geneva, sans-serif;
 $tff: 'Bungee Outline', cursive;
-// $mc: #324AB2;     
-// $altc: #b2324a;
-// $altc2: #b2ac32;
 
 html, body {
     overflow-x:hidden;
@@ -338,19 +335,6 @@ a:hover{
 
 // about section
 
-// #aboutWaves{
-//     z-index: 2;
-//     position: relative;
-//     height: 100%;
-//     width: 100%;
-//     margin-top: -10%;
-// }
-
-// #aboutWaves img{
-//     margin-top: -5%;
-//     height: auto;
-//     width: 100%;
-// }
 
 #about{
     background-color: $altc;
@@ -715,7 +699,6 @@ input.email {
 textarea.message {
     width: 290px;
     padding-bottom: 60px;
-    // vertical-align: text-top;
     box-sizing: border-box; 
     margin: auto;
     display: block;
@@ -1070,19 +1053,6 @@ width: auto;
 
 // about section
 
-// #aboutWaves{
-//     z-index: 2;
-//     position: relative;
-//     height: 100%;
-//     width: 100%;
-//     margin-top: -10%;
-// }
-
-// #aboutWaves img{
-//     margin-top: -5%;
-//     height: auto;
-//     width: 100%;
-// }
 
 #about{
    background-color: $altc;
@@ -1759,7 +1729,7 @@ width: auto;
 
 .profileImage img{
    height: auto;
-   width: 50%;
+   width: 100%;
    margin-top: -1%;
    margin-left: -1%;
    z-index: 0;
