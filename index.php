@@ -139,7 +139,8 @@ if(isset($_POST['submit'])){
 
 
 <div id="contact">
-        <h1>Lets Connect (ill let you pet my Pug!)</h1>
+        <h1>Lets Connect</h1>
+        <h2> I will even let you pet my Pug! </h2>
 
  <div id="contactForm">
        
