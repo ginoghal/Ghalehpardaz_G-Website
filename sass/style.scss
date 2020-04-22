@@ -2017,11 +2017,13 @@ padding-top: 20px;
   }
   
   .sportsViz h4{
-  font-family: $ff;
-  text-align: center;
-  font-size: 15px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+    font-family: $ff;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
   }
 
 .compilationVideo h3{
@@ -2061,11 +2063,13 @@ display: block;
 }
 
 .beeProject h4{
-font-family: $ff;
-text-align: center;
-font-size: 15px;
-padding-bottom: 20px;
-padding-top: 20px;
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .sportsnet h3{
