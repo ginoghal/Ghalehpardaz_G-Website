@@ -84,7 +84,7 @@ if(isset($_POST['submit'])){
         <div class="sportsViz">
         <h3>Sports Vizualization Project</h3>
         <iframe src="https://www.youtube.com/embed/ZXeNsoF2GgU" frameborder="0" allowfullscreen></iframe>
-        <h4>This was a collaborative project showcasing different sports and tracking various statistic visualizations on them.</h4>
+        <h4>This was a collaborative project showcasing different sports and tracking various statistic visualizations on them. The segments that were created specifically by me was the man doing dips, full segment of the man with the battle ropes, the paragliding, the kid with the scooter at the skatepark, the soccer clip and the motion tracking of the runner.</h4>
         </div>
 
         <div class="compilationVideo">
@@ -96,7 +96,7 @@ if(isset($_POST['submit'])){
         <div class="beeProject">
         <h3>Bee Chance - Bee Project</h3>
         <iframe src="https://www.youtube.com/embed/yt8mkCuwbRg" frameborder="0" allowfullscreen></iframe>
-        <h4>This was a collaborative project with a one hour time limit based around saving the bees.</h4>
+        <h4>This was a collaborative project with a one hour time limit based around saving the bees. I was responsible for the video creation while my partner created the logo clip.</h4>
         </div>
 
         <div class="sportsnet">
