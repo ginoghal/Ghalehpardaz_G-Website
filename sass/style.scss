@@ -436,6 +436,26 @@ a:hover{
   margin-top: 10px;
 }
 
+.td h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.td iframe{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.td h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
 .punisher h3{
   font-family: $ff;
   font-size: 20px;
@@ -1185,6 +1205,26 @@ padding-bottom: 20px;
 margin-top: 10px;
 }
 
+.td h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+  }
+  
+  .td iframe{
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  }
+  
+  .td h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  }
+
 .punisher h3{
   font-family: $ff;
   font-size: 20px;
@@ -1751,14 +1791,7 @@ width: auto;
    z-index: 1;
 }
 
-// .punisher img{
-//   width: 30%;
-//   margin-top: -30%;
-//   margin-left: 65%;
-//   padding-bottom: 20px;
-//   z-index: 2;
-//   position: absolute;
-// }
+
 
 .profileImage img{
    height: auto;
@@ -1957,6 +1990,28 @@ text-align: center;
 padding-bottom: 20px;
 margin-top: 10px;
 }
+
+.td h3{
+  font-family: $ff;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 1%;
+  }
+  
+  .td iframe{
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  }
+  
+  .td h4{
+  font-family: $ff;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  }
 
 .punisher h3{
   font-family: $ff;
