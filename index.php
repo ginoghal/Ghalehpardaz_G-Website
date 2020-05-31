@@ -142,6 +142,12 @@ if(isset($_POST['submit'])){
         <h4>This tattoo project was meant to try and incorporate the design to your body as seamlessly as possible.</h4>
         </div>
 
+        <div class="mug">
+        <h3>White/Maple Leafs Mug</h3>
+       <img src="public/images/Mug.jpg" alt="tattoo">
+        <h4>I built this Mug using Cinema 4D. I created a plain White Mug and for the second added the Maple Leafs Logo onto it.</h4>
+        </div>
+
 
 
 
