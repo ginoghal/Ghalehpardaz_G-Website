@@ -72,7 +72,7 @@ if(isset($_POST['submit'])){
         <div class="td">
         <h3>TD Investment Education</h3>
         <iframe src="https://www.youtube.com/embed/M-GKlBwCK3Q" frameborder="0" allowfullscreen></iframe>
-        <h4> TD Investment Education Application Video </h4>
+        <h4> TD Investment Education Application Video.</h4>
         </div>
 
 
