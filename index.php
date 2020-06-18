@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gino portfolio</title>
+    <title>Gino Ghalehpardaz' Portfolio Website</title>
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/style.css">
     <!-- <link rel="shortcut icon" type="image/png" href="public/images/Glogofavicon.png"> -->
@@ -95,7 +95,7 @@ if(isset($_POST['submit'])){
         </div>
 
         <div class="compilationVideo">
-        <h3>Cinema 4D Compilation Video</h3>
+        <h3>2019 Demoreel</h3>
         <iframe src="https://www.youtube.com/embed/iwJ3GUDbla8" frameborder="0" allowfullscreen></iframe>
         <h4>This demo reel was a collaboration of all my projects created in Cinema4D.</h4>
         </div>
@@ -159,6 +159,12 @@ if(isset($_POST['submit'])){
         <h2> I will even let you pet my Pug! </h2>
 
  <div id="contactForm">
+
+ <h3><a href="mailto:ginoghalehpardaz@gmail.com">Click to Send Email (ginoghalehpardaz@gmail.com)</a></h3>
+ <br>
+ <p>Thank you for contacting me! I will be in touch shortly</p>
+
+ <br><br>
        
     <form action="index.php" method="post">
     <label class="nametext"><h5>First name:</h5></label>
