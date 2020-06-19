@@ -59,6 +59,7 @@ class PHPMailer
     const ICAL_METHOD_COUNTER = 'COUNTER';
     const ICAL_METHOD_DECLINECOUNTER = 'DECLINECOUNTER';
 
+
     /**
      * Email priority.
      * Options: null (default), 1 = High, 3 = Normal, 5 = low.
@@ -333,6 +334,8 @@ class PHPMailer
      * @var array
      */
     public $SMTPOptions = [];
+
+    
 
     /**
      * SMTP username.
@@ -1616,6 +1619,8 @@ class PHPMailer
 
         return false;
     }
+
+
 
     /**
      * Send mail using the $Sendmail program.
@@ -4817,4 +4822,6 @@ class PHPMailer
     {
         $this->oauth = $oauth;
     }
+
+    
 }

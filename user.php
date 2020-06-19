@@ -1,6 +1,19 @@
 <?php
 //This is all your backend processing youll need for your website
 
+$mail->SMTPOptions = array(
+
+    'ssl' => array(
+    
+    'verify_peer' => false,
+    
+    'verify_peer_name' => false,
+    
+    'allow_self_signed' => true
+    
+    )
+    
+    );
 
 
 use PHPMailer\PHPMailer\PHPMailer;
