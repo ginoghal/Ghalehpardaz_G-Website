@@ -17,13 +17,15 @@ function createUser($name, $email, $message){
 
     $mail = new PHPMailer(true);
 
-    $mail->isSMTP();                            // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com';             // Specify main and backup SMTP servers
-    $mail->SMTPAuth = true;                     // Enable SMTP authentication
-    $mail->Username = 'ghalgino@gmail.com';          // SMTP username
-    $mail->Password = 'Ginster1'; // SMTP password
-    $mail->SMTPSecure = 'tls';                  // Enable TLS encryption, ssl also accepted
-    $mail->Port = 465;                          // TCP port to connect to
+    $mail->isSMTP();
+
+    $mail->Host = 'localhost';
+    
+    $mail->SMTPAuth = false;
+    
+    $mail->SMTPAutoTLS = false; 
+    
+    $mail->Port = 25;                       // TCP port to connect to
 
   
             //Recipients
