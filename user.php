@@ -23,7 +23,7 @@ function createUser($name, $email, $message){
     $mail->Username = 'ghalgino@gmail.com';          // SMTP username
     $mail->Password = 'Ginster1'; // SMTP password
     $mail->SMTPSecure = 'tls';                  // Enable TLS encryption, ssl also accepted
-    $mail->Port = 587;                          // TCP port to connect to
+    $mail->Port = 465;                          // TCP port to connect to
 
   
             //Recipients
