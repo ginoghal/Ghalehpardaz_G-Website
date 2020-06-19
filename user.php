@@ -25,7 +25,7 @@ function createUser($name, $email, $message){
     
     $mail->SMTPAutoTLS = false; 
     
-    $mail->Port = 25;                       // TCP port to connect to
+    $mail->Port = 587;                       // TCP port to connect to
 
   
             //Recipients
