@@ -142,10 +142,13 @@ if(isset($_POST['submit'])){
         <h4>This tattoo project was meant to try and incorporate the design to your body as seamlessly as possible.</h4>
         </div>
 
-        <div class="mug">
-        <h3>White/Maple Leafs Mug</h3>
-       <img src="public/images/Mug.jpg" alt="tattoo">
-        <h4>I built this Mug using Cinema 4D. I created a plain White Mug and for the second added the Maple Leafs Logo onto it.</h4>
+        <div class="cinema4d">
+        <h3>Cinema 4D Models</h3>
+        <img name="cinema4d"></img>
+
+        <h4>These are just some of the models I have created in Cinema 4D, Check back often as I am always working!</h4>
+
+
         </div>
 
 

@@ -40,7 +40,7 @@ a:hover {
 #menuToggle {
   display: block;
   position: relative;
-  margin-top: 5%;
+  margin-top: 22.5px;
   left: 2%;
   z-index: 5;
   -webkit-user-select: none;
@@ -110,13 +110,14 @@ a:hover {
 }
 
 #menu {
-  position: relative;
+  position: fixed;
   z-index: 3;
   width: 100%;
+  height: 86.5%;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 110px;
-  background: #ededed;
+  padding-top: 125px;
+  background-color: rgba(237, 237, 237, 0.8);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   -webkit-transform-origin: 0% 0%;
@@ -238,19 +239,11 @@ a:hover {
   z-index: 1;
 }
 
-.punisher img {
-  width: 0%;
-  margin-top: -20%;
-  margin-left: 70%;
-  z-index: 2;
-  position: relative;
-}
-
 .profileImage img {
   height: auto;
   width: 100%;
-  margin-top: -15%;
-  margin-left: -15%;
+  margin-top: -5%;
+  margin-left: -10%;
   z-index: 0;
   position: relative;
 }
@@ -395,6 +388,274 @@ a:hover {
   padding-top: 20px;
 }
 
+#portfolio h2 {
+  font-size: 17px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.td h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.td iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.td h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.punisher h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.punisher iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.punisher h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.nintendoSwitch h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.nintendoSwitch iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.nintendoSwitch h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.sportsViz h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.sportsViz iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.sportsViz h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.compilationVideo h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.compilationVideo iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.compilationVideo h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.beeProject h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.beeProject iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.beeProject h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.sportsnet h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.sportsnet iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.sportsnet h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.mclaren h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.mclaren iframe {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.mclaren h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.musicMixer h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.musicMixer img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.musicMixer h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.anglers h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.anglers img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.anglers h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.ufc h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.ufc img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.ufc h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.tattoo h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.tattoo img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.tattoo h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.mug h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.mug img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mug h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
 #contact {
   background-color: #99738E;
   display: block;
@@ -416,6 +677,14 @@ a:hover {
   padding-bottom: 30px;
 }
 
+#contact h2 {
+  font-size: 17px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+
 #contact form h3 {
   text-align: center;
   padding-top: 20px;
@@ -431,26 +700,27 @@ a:hover {
   padding: 5px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
-.nameinput {
+input.name {
   margin: auto;
   display: block;
   width: 290px;
 }
 
-.emailinput {
+input.email {
   width: 290px;
 }
 
-.messageinput {
+textarea.message {
   width: 290px;
   padding-bottom: 60px;
-  vertical-align: text-top;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: auto;
   display: block;
+  margin-top: 5px;
 }
 
 input[type="submit"] {
@@ -463,6 +733,19 @@ input[type="submit"] {
   font-size: 10px;
   font-family: arial black, arial, sans-serif;
   border-color: #3c4043;
+}
+
+button.submit {
+  margin-top: 15px;
+  margin-left: auto;
+  background: white;
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+  font-size: 10px;
+  font-family: arial black, arial, sans-serif;
+  border-color: #3c4043;
+  display: block;
 }
 
 .footer h1 {
@@ -567,13 +850,14 @@ input[type="submit"] {
             transform: rotate(-45deg) translate(0, -1px);
   }
   #menu {
-    position: relative;
+    position: fixed;
     z-index: 3;
     width: 100%;
+    height: 86.5%;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background: #ededed;
+    background-color: rgba(237, 237, 237, 0.8);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     -webkit-transform-origin: 0% 0%;
@@ -599,8 +883,8 @@ input[type="submit"] {
             transform: none;
   }
   .linkedIn img {
-    height: 10%;
-    width: 10%;
+    height: 5%;
+    width: 5%;
     padding: 0px;
     margin-top: 1%;
     margin-left: -22%;
@@ -608,8 +892,8 @@ input[type="submit"] {
     position: absolute;
   }
   .github img {
-    height: 10%;
-    width: 10%;
+    height: 5%;
+    width: 5%;
     padding: 0px;
     margin-left: -10%;
     margin-top: 1%;
@@ -659,11 +943,11 @@ input[type="submit"] {
     -webkit-animation-name: fadeInUp;
   }
   #title h2 {
-    font-size: 89px;
+    font-size: 80px;
     font-family: "Bungee Outline", cursive;
     color: white;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 7%;
   }
   #title h3 {
     font-size: 40px;
@@ -678,8 +962,8 @@ input[type="submit"] {
   .profileImage img {
     height: auto;
     width: 100%;
-    margin-top: -15%;
-    margin-left: -15%;
+    margin-top: -3%;
+    margin-left: -6%;
     z-index: 0;
     position: relative;
   }
@@ -719,8 +1003,6 @@ input[type="submit"] {
     margin-left: 60%;
     z-index: 2;
     position: absolute;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .connectButton a {
     text-decoration: none;
@@ -740,13 +1022,13 @@ input[type="submit"] {
   }
   #aboutMe {
     background-color: #553D67;
-    margin-top: 2%;
+    margin-top: -10%;
     height: auto;
     padding-bottom: 40px;
     position: relative;
   }
   #aboutMe h1 {
-    font-size: 30px;
+    font-size: 45px;
     font-family: Verdana, Geneva, sans-serif;
     text-align: center;
     padding-top: 20px;
@@ -759,6 +1041,7 @@ input[type="submit"] {
     font-family: Verdana, Geneva, sans-serif;
     text-align: left;
     margin-top: 15px;
+    width: 90%;
     padding-left: 2%;
     padding-bottom: 5%;
     color: white;
@@ -777,6 +1060,7 @@ input[type="submit"] {
     font-size: 25px;
     font-family: Verdana, Geneva, sans-serif;
     text-align: left;
+    width: 95%;
     margin-top: 15px;
     padding-left: 2%;
     padding-bottom: 5%;
@@ -803,30 +1087,281 @@ input[type="submit"] {
     position: relative;
   }
   #portfolio h1 {
-    font-size: 30px;
+    font-size: 45px;
     font-family: Verdana, Geneva, sans-serif;
     text-align: center;
     margin-top: -10%;
     padding-top: 20px;
+    color: black;
+  }
+  #portfolio h2 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+  .td h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .td iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .td h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .punisher h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .punisher iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .punisher h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .nintendoSwitch h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .nintendoSwitch iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .nintendoSwitch h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .sportsViz h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .sportsViz iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .sportsViz h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .compilationVideo h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .compilationVideo iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .compilationVideo h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .beeProject h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .beeProject iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .beeProject h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .sportsnet h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .sportsnet iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .sportsnet h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .mclaren h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .mclaren iframe {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .mclaren h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .musicMixer h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .musicMixer img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .musicMixer h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .anglers h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .anglers img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .anglers h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .ufc h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .ufc img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .ufc h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .tattoo h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .tattoo img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .tattoo h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .mug h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .mug img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .mug h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .cinema4d h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .cinema4d img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .cinema4d h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
   }
   #contact {
     background-color: #99738E;
     display: block;
     width: 100%;
     height: auto;
-    margin-top: -20px;
-    padding-bottom: 5px;
+    margin-top: -6%;
     position: relative;
+    padding-bottom: 5px;
   }
   #contact h1 {
-    font-size: 30px;
+    font-size: 45px;
     font-family: Verdana, Geneva, sans-serif;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 20px;
     padding-top: 20px;
     padding-right: 5px;
     padding-bottom: 30px;
+  }
+  #contact h2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
   }
   #contact form h3 {
     text-align: center;
@@ -834,7 +1369,7 @@ input[type="submit"] {
     color: black;
   }
   #contactForm {
-    width: 400px;
+    width: 500px;
     display: block;
     margin: auto;
     background-color: whitesmoke;
@@ -842,27 +1377,23 @@ input[type="submit"] {
     padding: 5px;
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
   }
-  .nameinput {
+  input.name {
     margin: auto;
     display: block;
-    width: 300px;
+    width: 290px;
   }
-  .emailinput {
-    width: 300px;
-    margin: auto;
-    display: block;
+  input.email {
+    width: 290px;
   }
-  .messageinput {
-    width: 300px;
+  textarea.message {
+    width: 290px;
     padding-bottom: 60px;
-    vertical-align: text-top;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: auto;
     display: block;
-  }
-  .submitinput {
     margin-top: 5px;
   }
   input[type="submit"] {
@@ -875,7 +1406,16 @@ input[type="submit"] {
     font-size: 10px;
     font-family: arial black, arial, sans-serif;
     border-color: #3c4043;
-    margin: auto;
+  }
+  button.submit {
+    margin: 10px auto;
+    background: white;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    font-size: 10px;
+    font-family: arial black, arial, sans-serif;
+    border-color: #3c4043;
     display: block;
   }
   .footer h1 {
@@ -886,7 +1426,8 @@ input[type="submit"] {
   }
   .socialMedia {
     display: block;
-    margin-left: 190px;
+    margin-left: 230px;
+    margin-top: 15px;
   }
 }
 
@@ -985,13 +1526,14 @@ input[type="submit"] {
             transform: rotate(-45deg) translate(0, -1px);
   }
   #menu {
-    position: relative;
+    position: fixed;
     z-index: 3;
     width: 100%;
+    height: 86.5%;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background: #ededed;
+    background-color: rgba(237, 237, 237, 0.8);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     -webkit-transform-origin: 0% 0%;
@@ -1021,24 +1563,20 @@ input[type="submit"] {
     -webkit-transform: none;
             transform: none;
   }
-  .socialMedia {
-    display: block;
-    margin: 0 auto;
-  }
   .linkedIn img {
-    height: 10%;
-    width: 10%;
+    height: 6%;
+    width: 6%;
     padding: 0px;
     margin-top: 0%;
-    margin-left: -8%;
+    margin-left: -7%;
     z-index: 1;
     position: absolute;
   }
   .github img {
-    height: 10%;
-    width: 10%;
+    height: 6%;
+    width: 6%;
     padding: 0px;
-    margin-left: -2%;
+    margin-left: 2%;
     margin-top: 0%;
     z-index: 1;
     position: absolute;
@@ -1090,7 +1628,7 @@ input[type="submit"] {
     font-family: "Bungee Outline", cursive;
     color: white;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 50px;
   }
   #title h3 {
     font-size: 35px;
@@ -1099,23 +1637,15 @@ input[type="submit"] {
     text-align: right;
     margin-top: 10px;
     padding-bottom: 10px;
-    padding-right: 8%;
+    padding-right: 2%;
     position: relative;
     z-index: 1;
   }
-  .punisher img {
-    width: 30%;
-    margin-top: -40%;
-    margin-left: 65%;
-    padding-bottom: 20px;
-    z-index: 2;
-    position: relative;
-  }
   .profileImage img {
     height: auto;
-    width: 50%;
-    margin-top: -10%;
-    margin-left: -1%;
+    width: 53%;
+    margin-top: -5%;
+    margin-left: 1%;
     z-index: 0;
     position: relative;
   }
@@ -1165,8 +1695,11 @@ input[type="submit"] {
     text-decoration: none;
     display: block;
     width: 120px;
-    padding-top: 15px;
-    margin-left: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 36px;
+    padding-bottom: 28px;
+    margin-left: -7px;
     color: black;
     font-size: 14px;
   }
@@ -1178,7 +1711,7 @@ input[type="submit"] {
   }
   #aboutMe {
     background-color: #553D67;
-    margin-top: -28%;
+    margin-top: -8%;
     height: auto;
     padding-bottom: 40px;
     position: relative;
@@ -1196,8 +1729,8 @@ input[type="submit"] {
     font-size: 40px;
     font-family: Verdana, Geneva, sans-serif;
     text-align: left;
-    margin-top: 13%;
-    padding-left: 2%;
+    margin-top: 5%;
+    padding-left: 5%;
     padding-bottom: 5%;
     color: white;
   }
@@ -1215,13 +1748,13 @@ input[type="submit"] {
     font-family: Verdana, Geneva, sans-serif;
     text-align: left;
     margin-top: 15px;
-    padding-left: 2%;
+    padding-left: 3%;
     padding-bottom: 5%;
     color: white;
   }
   .pug img {
     width: 500px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-bottom: 20px;
     height: auto;
     display: block;
@@ -1246,20 +1779,303 @@ input[type="submit"] {
     margin-top: -10%;
     padding-top: 20px;
   }
+  #portfolio h2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+  .td h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .td iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .td h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .punisher h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .punisher iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .punisher h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .nintendoSwitch h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .nintendoSwitch iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .nintendoSwitch h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .sportsViz h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .sportsViz iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .sportsViz h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .compilationVideo h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .compilationVideo iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .compilationVideo h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .beeProject h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .beeProject iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .beeProject h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .sportsnet h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .sportsnet iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .sportsnet h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .mclaren h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .mclaren iframe {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .mclaren h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .musicMixer h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  a.musicMixer {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .musicMixer img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .musicMixer h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .anglers h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  a.anglers {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .anglers img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .anglers h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .ufc h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  a.ufc {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .ufc img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .ufc h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .tattoo h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .tattoo img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .tattoo h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .mug h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .mug img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .mug h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
   #contact {
     background-color: #99738E;
     display: block;
     width: 100%;
     height: auto;
-    margin-top: -20px;
+    margin-top: -45px;
     position: relative;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
   }
   #contact h1 {
     font-size: 50px;
     font-family: Verdana, Geneva, sans-serif;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 20px;
     padding-top: 20px;
     padding-right: 5px;
@@ -1271,7 +2087,7 @@ input[type="submit"] {
     color: black;
   }
   #contactForm {
-    width: 600px;
+    width: 500px;
     display: block;
     margin: auto;
     background-color: whitesmoke;
@@ -1279,31 +2095,27 @@ input[type="submit"] {
     padding: 5px;
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
   }
-  .nameinput {
+  input.name {
     margin: auto;
     display: block;
-    width: 300px;
+    width: 290px;
   }
-  .emailinput {
-    width: 300px;
-    margin: auto;
-    display: block;
+  input.email {
+    width: 290px;
   }
-  .messageinput {
-    width: 300px;
+  textarea.message {
+    width: 290px;
     padding-bottom: 60px;
-    vertical-align: text-top;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: auto;
     display: block;
-  }
-  .submitinput {
-    margin-top: 20px;
+    margin-top: 5px;
   }
   input[type="submit"] {
-    margin-top: 10px;
+    margin-top: 5%;
     margin-left: auto;
     background: white;
     cursor: pointer;
@@ -1312,7 +2124,16 @@ input[type="submit"] {
     font-size: 10px;
     font-family: arial black, arial, sans-serif;
     border-color: #3c4043;
-    margin: auto;
+  }
+  button.submit {
+    margin: 10px auto;
+    background: white;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    font-size: 10px;
+    font-family: arial black, arial, sans-serif;
+    border-color: #3c4043;
     display: block;
   }
   .footer h1 {
@@ -1320,6 +2141,11 @@ input[type="submit"] {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+  }
+  .socialMedia {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
