@@ -30,7 +30,7 @@ function createUser($name, $email, $message){
   
             //Recipients
             $mail->setFrom('from@example.com', 'Website Message');
-            $mail->addAddress('ginoghalehpardaz@gmail.com');
+            $mail->addAddress('ginoghalehpardaz@hotmail.com');
 
 
             // Content
