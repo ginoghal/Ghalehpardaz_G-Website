@@ -21,8 +21,8 @@ function createUser($name, $email, $message){
 
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;                     // Enable SMTP authentication
-    $mail->Username = 'ghalgino@gmail.com';          // SMTP username
-    $mail->Password = 'Ginster1'; // SMTP password
+    $mail->Username = 'ginoghalehpardaz@hotmail.com';          // SMTP username
+    $mail->Password = 'Silver19!'; // SMTP password
     $mail->SMTPSecure = 'tls';                  // Enable TLS encryption, ssl also accepted
     $mail->Port = 587;
                    // TCP port to connect to
@@ -30,7 +30,7 @@ function createUser($name, $email, $message){
   
             //Recipients
             $mail->setFrom('from@example.com', 'Website Message');
-            $mail->addAddress('ginoghalehpardaz@hotmail.com');
+            $mail->addAddress('ginoghalehpardaz@gmail.com');
 
 
             // Content
