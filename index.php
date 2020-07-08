@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
         <div class="animated animated FadeInUp fadeInUp">
             <h2>Gino Ghalehpardaz</h2>
         </div>
-          <h3>I am a Front-end Developer and Motion Designer</h3>
+          <h3>I am a Front-end Developer, Motion Designer, Multimedia & Marketing Specialist.</h3>
           <div class="profileImage"><img src="public/images/ginogprofilepic.png" alt="ginoProfilePic"></div>
           <button class="connectButton"><a href="#contact"> Connect With Me!</a></button>
         

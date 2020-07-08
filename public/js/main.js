@@ -19,8 +19,8 @@ var menu = document.getElementById('menu');
     images[1] = 'public/images/BasketballNetCinema4D.jpg';
     images[2] = 'public/images/pokeball2.jpg';
     images[3] = 'public/images/SoccerNet.jpg';
-    images[4] = 'public/images/Mug.jpg';
-    images[5] = 'public/images/CanFlag.jpg'
+    images[4] = 'public/images/CanFlag.jpg';
+    images[5] = 'public/images/MapleLeafsMug2.jpg'
 
     function slide(){
       document.cinema4d.src = images[i];
