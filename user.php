@@ -19,12 +19,12 @@ function createUser($name, $email, $message){
 
     $mail->isSMTP();
 
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'smtp.live.com';
     $mail->SMTPAuth = true;                     // Enable SMTP authentication
-    $mail->Username = 'ghalgino@gmail.com';          // SMTP username
-    $mail->Password = 'Ginster1'; // SMTP password
+    $mail->Username = 'ginoghalehpardaz@hotmail.com';          // SMTP username
+    $mail->Password = 'Ginster1!'; // SMTP password
     $mail->SMTPSecure = 'tls';                  // Enable TLS encryption, ssl also accepted
-    $mail->Port = 587;
+    $mail->Port = 465;
                    // TCP port to connect to
 
   
