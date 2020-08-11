@@ -150,7 +150,7 @@ if(isset($_POST['submit'])){
 
         <div class="uiux">
         <h3>UI/UX Mockup</h3>
-        <img name="mockupWebsite"></img>
+        <img src="public/images/UIUXRedesigns.jpg" alt="UIUX">
         <h4>These are just some UI/UX Mockup websites I have recreated from existing sites.</h4>
         </div>
 
