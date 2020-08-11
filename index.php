@@ -145,9 +145,14 @@ if(isset($_POST['submit'])){
         <div class="cinema4d">
         <h3>Cinema 4D Models</h3>
         <img name="cinema4d"></img>
-
         <h4>These are just some of the models I have created in Cinema 4D, Check back often as I am always working!</h4>
+        </div>
 
+        <div class="uiux">
+        <h3>UI/UX Mockup</h3>
+        <img name="mockupWebsite"></img>
+        <h4>These are just some UI/UX Mockup websites I have recreated from existing sites.</h4>
+        </div>
 
         </div>
 
@@ -167,9 +172,9 @@ if(isset($_POST['submit'])){
  <br>
  <p>Thank you for contacting me! I will be in touch shortly</p>
 
- <br><br>
+ <br><br><br><br><br>
        
-    <form action="index.php" method="post">
+    <!-- <form action="index.php" method="post">
     <label class="nametext"><h5>First name:</h5></label>
     <input type="text" name="name" class="name" value=""><br><br>
     <label class="emailtext"><h5>Email:</h5></label>
@@ -178,7 +183,7 @@ if(isset($_POST['submit'])){
     <textarea type="text" name="message" class="message" value=""></textarea>
 
     <button class="submit" name="submit">Submit</button>
-    </form>
+    </form> -->
 
  
  </div>
