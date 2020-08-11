@@ -9,7 +9,7 @@ var menu = document.getElementById('menu');
       }
     }
 
-
+{
     var i = 0; //starting images
     var images = [];
     var time = 3000;
@@ -35,6 +35,12 @@ var menu = document.getElementById('menu');
     }
     
   
+
     window.onload = slide;
+
+
+  }
+
+
 
 
