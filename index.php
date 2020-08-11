@@ -154,6 +154,18 @@ if(isset($_POST['submit'])){
         <h4>These are just some UI/UX Mockup websites I have recreated from existing sites.</h4>
         </div>
 
+        <div class="punisherskull">
+        <h3>Punisher Tattoo (Graphic Design piece)</h3>
+        <img src="public/images/tattoopunisher.png" alt="punisherskull">
+        <h4>This is the punisher skull that I designed and created for my mock tattoo piece. This graphic design was created using Adobe Illustrator.</h4>
+        </div>
+
+        <div class="conorMcgregor">
+        <h3>Conor Mcgregor (Graphic Design piece)</h3>
+        <img src="public/images/ConorMcgregor(2016).jpg" alt="conormcgregor">
+        <h4>Here is an old Conor Mcgregor Graphic Design piece I did in 2016 using Adobe Photoshop, It is inspired from the posters the UFC uses for autographs for individual fighters to give to fans. </h4>
+        </div>
+
         </div>
 
 
