@@ -33,5 +33,8 @@ var menu = document.getElementById('menu');
 
       setTimeout("slide()", time);
     }
-
+    
+  
     window.onload = slide;
+
+
