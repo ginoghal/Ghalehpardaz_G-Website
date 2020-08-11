@@ -162,9 +162,9 @@ if(isset($_POST['submit'])){
 
         <div class="conorMcgregor">
         <h3>Conor Mcgregor (Graphic Design piece)</h3>
-        <img src="public/images/ConorMcgregor(2016).jpg" alt="conormcgregor">
+        <img src="public/images/ConorMcgregor(2016).png" alt="conormcgregor">
         <h4>Here is an old Conor Mcgregor Graphic Design piece I did in 2016 using Adobe Photoshop, It is inspired from the posters the UFC uses for autographs for individual fighters to give to fans. </h4>
-        </div>
+    
 
         </div>
 
