@@ -59,7 +59,7 @@ if(isset($_POST['submit'])){
         <h1>WHO I AM</h1>
         <h2>Born in London, On. I am currently enrolled in the Interactive Media Design program at Fanshawe College.</h2>
         <h3>Prior to going to Fanshawe, I was a marketing coordinator.</h3>
-        <h5>I have creating digital media content with companys such as: <br>•Adrenaline Mixed Martial Arts & Fitness<br>•BTC Fight Promotions<br>•XO Cookie Co.<br>•Ilderton Area Business Association<br>and more...</h5>
+        <h5>I have creating digital media content with companys such as: <br><br>•Adrenaline Mixed Martial Arts & Fitness<br>•BTC Fight Promotions<br>•XO Cookie Co.<br>•Ilderton Area Business Association<br>and more...</h5>
         <h4>I am striving to improve at my craft everyday. I returned to school and rebuilt myself so that I could provide my pug with the best life possible.</h4>
         
         <div class="pug"><img src="public/images/Pugsley.png" alt="pug"></div>
