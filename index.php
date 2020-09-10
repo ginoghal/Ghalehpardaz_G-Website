@@ -2,20 +2,18 @@
 require_once 'load.php';
 require_once 'user.php';
 
-
-//This is how the first part of your php page should look like, 
+//This is how the first part of your php page should look like,
 //just copy and paste the form and remove the confirm logged ins on both files
 
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
     $name = trim($_POST['name']);
     $email = trim($_POST['email']);
     $message = trim($_POST['message']);
 
-    if(empty($name) || empty($email) || empty($message)){
+    if (empty($name) || empty($email) || empty($message)) {
         $message = 'Please fill required fields!';
-    }else{
-        
-    
+    } else {
+
         createUser($name, $email, $message);
     }
 
@@ -43,7 +41,7 @@ if(isset($_POST['submit'])){
 <body>
 
 <?php include 'templates/header.php'?>
-   
+
 <div id="title">
         <div class="animated animated FadeInUp fadeInUp">
             <h2>Gino Ghalehpardaz</h2>
@@ -51,17 +49,17 @@ if(isset($_POST['submit'])){
           <h3>I am a Front-end Developer, Motion Designer, Multimedia & Marketing Specialist.</h3>
           <div class="profileImage"><img src="public/images/ginogprofilepic.png" alt="ginoProfilePic"></div>
           <button class="connectButton"><a href="#contact"> Connect With Me!</a></button>
-        
+
       </div>
 
 
     <div id="aboutMe">
         <h1>WHO I AM</h1>
-        <h2>Born in London, On. I am currently enrolled in the Interactive Media Design program at Fanshawe College.</h2>
+        <h2>Born in London, On. I am a recent graduate from the Interactive Media Design program at Fanshawe College.</h2>
         <h3>Prior to going to Fanshawe, I was a marketing coordinator.</h3>
         <h5>I have creating digital media content for companys such as: <br><br>•Adrenaline Mixed Martial Arts & Fitness<br>•BTC Fight Promotions<br>•XO Cookie Co.<br>•Ilderton Area Business Association<br>and more...</h5>
         <h4>I am striving to improve at my craft everyday. I returned to school and rebuilt myself so that I could provide my pug with the best life possible.</h4>
-        
+
         <div class="pug"><img src="public/images/Pugsley.png" alt="pug"></div>
 </div>
 
@@ -82,7 +80,7 @@ if(isset($_POST['submit'])){
         <iframe src="https://www.youtube.com/embed/wiuqFsIjTzI" frameborder="0" allowfullscreen></iframe>
         <h4>Punisher Title Sequence class project I made with After Effects.</h4>
         </div>
-        
+
         <div class="nintendoSwitch">
         <h3>Switch Commercial</h3>
         <iframe src="https://www.youtube.com/embed/HzqdvgxGsmk" frameborder="0" allowfullscreen></iframe>
@@ -165,7 +163,7 @@ if(isset($_POST['submit'])){
         <h3>Conor Mcgregor (Graphic Design piece)</h3>
         <img src="public/images/ConorMcgregor(2016).png" alt="conormcgregor">
         <h4>Here is an old Conor Mcgregor Graphic Design piece I did in 2016 using Adobe Photoshop, It is inspired from the posters the UFC uses for autographs for individual fighters to give to fans. </h4>
-    
+
 
         </div>
 
@@ -186,7 +184,7 @@ if(isset($_POST['submit'])){
  <p>Thank you for contacting me! I will be in touch shortly</p>
 
  <br><br><br><br><br>
-       
+
     <!-- <form action="index.php" method="post">
     <label class="nametext"><h5>First name:</h5></label>
     <input type="text" name="name" class="name" value=""><br><br>
@@ -198,15 +196,15 @@ if(isset($_POST['submit'])){
     <button class="submit" name="submit">Submit</button>
     </form> -->
 
- 
+
  </div>
 </div>
 
-   
-   
-   
+
+
+
 <script src="public/js/main.js"></script>
- 
+
 </body>
 </html>
 
