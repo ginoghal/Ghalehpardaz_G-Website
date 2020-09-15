@@ -178,12 +178,12 @@ if (isset($_POST['submit'])) {
         <h2> I will even let you pet my Pug! </h2>
 
  <div id="contactForm">
-
+<br>
  <h3><a href="mailto:ginoghalehpardaz@gmail.com">Click to Send Email (ginoghalehpardaz@gmail.com)</a></h3>
  <br>
  <p>Thank you for contacting me! I will be in touch shortly</p>
 
- <br><br><br><br><br>
+ <br>
 
     <!-- <form action="index.php" method="post">
     <label class="nametext"><h5>First name:</h5></label>
